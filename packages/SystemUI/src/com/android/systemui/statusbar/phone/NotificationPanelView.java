@@ -48,6 +48,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.android.keyguard.KeyguardStatusView;
+import com.android.keyguard.KeyguardUpdateMonitor;
+import com.android.keyguard.KeyguardUpdateMonitorCallback;
 import com.android.systemui.R;
 import com.android.systemui.qs.QSContainer;
 import com.android.systemui.qs.QSPanel;
@@ -364,12 +366,14 @@ public class NotificationPanelView extends PanelView implements
     public void onAttachedToWindow() {
         super.onAttachedToWindow();
         mSecureCameraLaunchManager.create();
+        KeyguardUpdateMonitor.getInstance(mContext).registerCallback(mInfoCallback);
     }
 
     @Override
     public void onDetachedFromWindow() {
         super.onDetachedFromWindow();
         mSecureCameraLaunchManager.destroy();
+        KeyguardUpdateMonitor.getInstance(mContext).removeCallback(mInfoCallback);
     }
 
     private void startQsSizeChangeAnimation(int oldHeight, final int newHeight) {
@@ -2112,4 +2116,13 @@ public class NotificationPanelView extends PanelView implements
                     resolver, Settings.System.DOUBLE_TAP_SLEEP_GESTURE, 1) == 1;
         }
     }
+
+    private KeyguardUpdateMonitorCallback mInfoCallback = new KeyguardUpdateMonitorCallback() {
+        @Override
+        public void onFingerprintAttemptFailed(boolean error, int errorCode) {
+            if (!error && !mStatusBar.isBouncerShowing() && mStatusBar.isScreenOnFromKeyguard()) {
+                NotificationPanelView.super.startHintAnimation(true /* fingerprintHint */);
+            }
+        }
+    };
 }
