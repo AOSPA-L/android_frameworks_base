@@ -76,6 +76,7 @@ import android.service.gesture.EdgeGestureManager;
 import android.util.DisplayMetrics;
 import android.util.EventLog;
 import android.util.Log;
+import android.util.SettingConfirmationHelper;
 import android.util.Slog;
 import android.util.SparseArray;
 import android.view.Display;
@@ -661,6 +662,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
     boolean mHavePendingMediaKeyRepeatWithWakeLock;
 
     private int mCurrentUserId;
+    private boolean haveEnableGesture = false;
 
     private int mSystemUIImmersiveFlags = 0;
 
@@ -831,6 +833,9 @@ public class PhoneWindowManager implements WindowManagerPolicy {
             resolver.registerContentObserver(Settings.Secure.getUriFor(
                     Settings.Secure.SYSTEM_UI_FLAGS), false, this,
                     UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.THREE_FINGER_SWIPE_GESTURE), false, this,
+                    UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.Secure.getUriFor(
                     Settings.System.USE_EDGE_SERVICE_FOR_GESTURES), false, this,
                     UserHandle.USER_ALL);
@@ -889,6 +894,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
     private ImmersiveModeConfirmation mImmersiveModeConfirmation;
 
     private SystemGesturesPointerEventListener mSystemGestures;
+    private OPGesturesListener mOPGestures;
 
     private EdgeGestureManager.EdgeGestureActivationListener mEdgeGestureActivationListener
             = new EdgeGestureManager.EdgeGestureActivationListener() {
@@ -1322,6 +1328,12 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         @Override
         public void run() {
             takeScreenshot();
+                SettingConfirmationHelper.request(
+                mContext,
+                Settings.System.THREE_FINGER_SWIPE_GESTURE,
+                mContext.getString(R.string.three_finger_swipe_gesture_title),
+                mContext.getString(R.string.three_finger_swipe_gesture_message),
+                null);
         }
     };
 
@@ -1456,6 +1468,13 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         mWindowManagerFuncs = windowManagerFuncs;
         mWindowManagerInternal = LocalServices.getService(WindowManagerInternal.class);
         mDreamManagerInternal = LocalServices.getService(DreamManagerInternal.class);
+
+        mOPGestures = new OPGesturesListener(context, new OPGesturesListener.Callbacks() {
+                    @Override
+                    public void onSwipeThreeFinger() {
+                        mHandler.post(mScreenshotRunnable);
+                    }
+                });
 
         mHandler = new PolicyHandler();
         mWakeGestureListener = new MyWakeGestureListener(mContext, mHandler);
@@ -1662,6 +1681,18 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                         + deviceKeyHandlerClass + " from class "
                         + deviceKeyHandlerLib, e);
             }
+        }
+    }
+
+    private void enableSwipeThreeFingerGesture(boolean enable){
+        if (enable) {
+            if (haveEnableGesture) return;
+                haveEnableGesture = true;
+                mWindowManagerFuncs.registerPointerEventListener(mOPGestures);
+        } else {
+            if (!haveEnableGesture) return;
+                haveEnableGesture = false;
+                mWindowManagerFuncs.unregisterPointerEventListener(mOPGestures);
         }
     }
 
@@ -1913,6 +1944,11 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 }
                 updateEdgeGestureListenerState();
             }
+
+            //Three Finger Gesture
+            boolean threeFingerGesture = Settings.System.getIntForUser(resolver,
+                    Settings.System.THREE_FINGER_SWIPE_GESTURE, 1, UserHandle.USER_CURRENT) == 1;
+            enableSwipeThreeFingerGesture(threeFingerGesture);
 
             // Configure rotation lock.
             int userRotation = Settings.System.getIntForUser(resolver,

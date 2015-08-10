@@ -3274,6 +3274,13 @@ public final class Settings {
         public static final String LIVE_DISPLAY_HINTED = "live_display_hinted";
 
         /**
+         * Three Finger Gesture from Oppo
+         *
+         * @hide
+         */
+        public static final String THREE_FINGER_SWIPE_GESTURE = "three_finger_swipe_gesture";
+
+        /**
          * Quick settings quick pull down option
          * @hide
          */
@@ -3401,7 +3408,8 @@ public final class Settings {
         public static final String[] SETTINGS_TO_RESET = {
             QUICK_SETTINGS_QUICK_PULL_DOWN,
             DISABLE_IMMERSIVE_MESSAGE,
-            SAFE_HEADSET_VOLUME
+            SAFE_HEADSET_VOLUME,
+            THREE_FINGER_SWIPE_GESTURE
         };
 
         // Settings moved to Settings.Secure

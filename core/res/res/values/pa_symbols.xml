@@ -105,4 +105,8 @@
 
   <!-- Proximity check on screen on default -->
   <java-symbol type="bool" name="config_proximityCheckOnWakeEnabledByDefault" />
+
+  <!-- Three finger swipe gesture dialog -->
+  <java-symbol type="string" name="three_finger_swipe_gesture_title" />
+  <java-symbol type="string" name="three_finger_swipe_gesture_message" />
 </resources>
