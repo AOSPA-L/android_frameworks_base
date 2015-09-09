@@ -7169,6 +7169,42 @@ public class PackageManagerService extends IPackageManager.Stub {
         }
     }
 
+    /**
+     * Matches scanned packages with the requested PreLaunchCheckActivity, and prepares
+     * mPreLaunchCheckResolveInfo.
+     *
+     * - mCustomPreLaunchComponentName holds the requested ComponentName.  This
+     *   value may refer to a package that is not yet available (not yet installed or
+     *   not yet detected).
+     * - When mPreLaunchCheckPackagesReplaced is true, it indicates that
+     *   mPreLaunchCheckResolveInfo properly installed.
+     */
+    private void setUpCustomPreLaunchCheckActivity(PackageParser.Package pkg) {
+        synchronized (mPackages) {
+            mPreLaunchCheckPackagesReplaced = true;
+            // Set up information for custom user intent resolution activity.
+            ActivityInfo preLaunchCheckActivity = new ActivityInfo();
+            preLaunchCheckActivity.applicationInfo = pkg.applicationInfo;
+            preLaunchCheckActivity.name = mCustomPreLaunchComponentName.getClassName();
+            preLaunchCheckActivity.packageName = pkg.applicationInfo.packageName;
+            preLaunchCheckActivity.processName = pkg.applicationInfo.packageName;
+            preLaunchCheckActivity.theme = com.android.internal.R.style.Theme_Holo_Dialog_Alert;
+            preLaunchCheckActivity.launchMode = ActivityInfo.LAUNCH_MULTIPLE;
+            preLaunchCheckActivity.flags = ActivityInfo.FLAG_EXCLUDE_FROM_RECENTS |
+                    ActivityInfo.FLAG_FINISH_ON_CLOSE_SYSTEM_DIALOGS;
+            preLaunchCheckActivity.exported = true;
+            preLaunchCheckActivity.enabled = true;
+
+            mPreLaunchCheckResolveInfo.activityInfo = preLaunchCheckActivity;
+            mPreLaunchCheckResolveInfo.priority = 0;
+            mPreLaunchCheckResolveInfo.preferredOrder = 0;
+            mPreLaunchCheckResolveInfo.match = 0;
+
+            Slog.i(TAG, "Replacing default Pre Launch Activity with custom activity: " +
+                    mCustomPreLaunchComponentName);
+        }
+    }
+
     private static String calculateBundledApkRoot(final String codePathString) {
         final File codePath = new File(codePathString);
         final File codeRoot;
