@@ -2508,6 +2508,11 @@ public class TelephonyManager {
         try {
             Boolean notifyNow = (getITelephony() != null);
             sRegistry.listenForSubscriber(listener.mSubId, pkgForDebug, listener.callback, events, notifyNow);
+            if (events != PhoneStateListener.LISTEN_NONE) {
+                listener.callback.setTelephonyRegistry(sRegistry);
+            } else {
+                listener.callback.setTelephonyRegistry(null);
+            }
         } catch (RemoteException ex) {
             // system process dead
         } catch (NullPointerException ex) {

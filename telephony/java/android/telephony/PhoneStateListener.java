@@ -16,10 +16,12 @@
 
 package android.telephony;
 
+import android.os.Binder;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.os.RemoteException;
 import android.telephony.SubscriptionManager;
 import android.telephony.CellLocation;
 import android.telephony.CellInfo;
@@ -32,8 +34,10 @@ import android.telephony.PreciseCallState;
 import android.telephony.PreciseDataConnectionState;
 
 import com.android.internal.telephony.IPhoneStateListener;
+import com.android.internal.telephony.ITelephonyRegistry;
 import com.android.internal.telephony.PhoneConstants;
 
+import java.lang.ref.WeakReference;
 import java.util.List;
 
 /**
@@ -329,6 +333,7 @@ public class PhoneStateListener {
                 }
             }
         };
+        callback = new PhoneStateListenerStub(this);
     }
 
     /**
@@ -503,83 +508,118 @@ public class PhoneStateListener {
         // default implementation empty
     }
 
-    /**
-     * The callback methods need to be called on the handler thread where
-     * this object was created.  If the binder did that for us it'd be nice.
-     */
-    IPhoneStateListener callback = new IPhoneStateListener.Stub() {
+    static class PhoneStateListenerStub extends IPhoneStateListener.Stub {
+        private WeakReference<PhoneStateListener> mWeakRefOfListener;
+        private volatile ITelephonyRegistry mRegistry;
+        private int mSubId;
+
+        PhoneStateListenerStub(PhoneStateListener listener) {
+            mWeakRefOfListener = new WeakReference<PhoneStateListener>(listener);
+            mSubId = listener.mSubId;
+        }
+
+        void setTelephonyRegistry(ITelephonyRegistry registry) {
+            synchronized (this) {
+                mRegistry = registry;
+            }
+        }
+
+        private void sendMessageToTargetSafely(int what, int arg1, int arg2, Object obj) {
+            PhoneStateListener listener = mWeakRefOfListener.get();
+            if (listener != null) {
+                Message.obtain(listener.mHandler, what, arg1, arg2, obj).sendToTarget();
+            } else {
+                synchronized (this) {
+                    if (mRegistry != null) {
+                        long token = Binder.clearCallingIdentity();
+                        try {
+                            mRegistry.listenForSubscriber(mSubId, null, this, LISTEN_NONE, false);
+                        } catch (RemoteException ex) {
+                            // system process dead
+                        } catch (NullPointerException ex) {
+                            // system process dead
+                        }
+                        Binder.restoreCallingIdentity(token);
+                        mRegistry = null;
+                    }
+                }
+            }
+        }
+
         public void onServiceStateChanged(ServiceState serviceState) {
-            Message.obtain(mHandler, LISTEN_SERVICE_STATE, 0, 0, serviceState).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_SERVICE_STATE, 0, 0, serviceState);
         }
 
         public void onSignalStrengthChanged(int asu) {
-            Message.obtain(mHandler, LISTEN_SIGNAL_STRENGTH, asu, 0, null).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_SIGNAL_STRENGTH, asu, 0, null);
         }
 
         public void onMessageWaitingIndicatorChanged(boolean mwi) {
-            Message.obtain(mHandler, LISTEN_MESSAGE_WAITING_INDICATOR, mwi ? 1 : 0, 0, null)
-                    .sendToTarget();
+            sendMessageToTargetSafely(LISTEN_MESSAGE_WAITING_INDICATOR, mwi ? 1 : 0, 0, null);
         }
 
         public void onCallForwardingIndicatorChanged(boolean cfi) {
-            Message.obtain(mHandler, LISTEN_CALL_FORWARDING_INDICATOR, cfi ? 1 : 0, 0, null)
-                    .sendToTarget();
+            sendMessageToTargetSafely(LISTEN_CALL_FORWARDING_INDICATOR, cfi ? 1 : 0, 0, null);
         }
 
         public void onCellLocationChanged(Bundle bundle) {
             CellLocation location = CellLocation.newFromBundle(bundle);
-            Message.obtain(mHandler, LISTEN_CELL_LOCATION, 0, 0, location).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_CELL_LOCATION, 0, 0, location);
         }
 
         public void onCallStateChanged(int state, String incomingNumber) {
-            Message.obtain(mHandler, LISTEN_CALL_STATE, state, 0, incomingNumber).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_CALL_STATE, state, 0, incomingNumber);
         }
 
         public void onDataConnectionStateChanged(int state, int networkType) {
-            Message.obtain(mHandler, LISTEN_DATA_CONNECTION_STATE, state, networkType).
-                    sendToTarget();
+            sendMessageToTargetSafely(LISTEN_DATA_CONNECTION_STATE, state, networkType, null);
         }
 
         public void onDataActivity(int direction) {
-            Message.obtain(mHandler, LISTEN_DATA_ACTIVITY, direction, 0, null).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_DATA_ACTIVITY, direction, 0, null);
         }
 
         public void onSignalStrengthsChanged(SignalStrength signalStrength) {
-            Message.obtain(mHandler, LISTEN_SIGNAL_STRENGTHS, 0, 0, signalStrength).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_SIGNAL_STRENGTHS, 0, 0, signalStrength);
         }
 
         public void onOtaspChanged(int otaspMode) {
-            Message.obtain(mHandler, LISTEN_OTASP_CHANGED, otaspMode, 0).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_OTASP_CHANGED, otaspMode, 0, null);
         }
 
         public void onCellInfoChanged(List<CellInfo> cellInfo) {
-            Message.obtain(mHandler, LISTEN_CELL_INFO, 0, 0, cellInfo).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_CELL_INFO, 0, 0, cellInfo);
         }
 
         public void onPreciseCallStateChanged(PreciseCallState callState) {
-            Message.obtain(mHandler, LISTEN_PRECISE_CALL_STATE, 0, 0, callState).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_PRECISE_CALL_STATE, 0, 0, callState);
         }
 
         public void onPreciseDataConnectionStateChanged(
                 PreciseDataConnectionState dataConnectionState) {
-            Message.obtain(mHandler, LISTEN_PRECISE_DATA_CONNECTION_STATE, 0, 0,
-                    dataConnectionState).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_PRECISE_DATA_CONNECTION_STATE, 0, 0,
+                    dataConnectionState);
         }
 
         public void onDataConnectionRealTimeInfoChanged(
                 DataConnectionRealTimeInfo dcRtInfo) {
-            Message.obtain(mHandler, LISTEN_DATA_CONNECTION_REAL_TIME_INFO, 0, 0,
-                    dcRtInfo).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_DATA_CONNECTION_REAL_TIME_INFO, 0, 0,
+                    dcRtInfo);
         }
 
         public void onVoLteServiceStateChanged(VoLteServiceState lteState) {
-            Message.obtain(mHandler, LISTEN_VOLTE_STATE, 0, 0, lteState).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_VOLTE_STATE, 0, 0, lteState);
         }
 
         public void onOemHookRawEvent(byte[] rawData) {
-            Message.obtain(mHandler, LISTEN_OEM_HOOK_RAW_EVENT, 0, 0, rawData).sendToTarget();
+            sendMessageToTargetSafely(LISTEN_OEM_HOOK_RAW_EVENT, 0, 0, rawData);
         }
-    };
+    }
+    /**
+     * The callback methods need to be called on the handler thread where
+     * this object was created.  If the binder did that for us it'd be nice.
+     */
+    PhoneStateListenerStub callback;
 
     private void log(String s) {
         Rlog.d(LOG_TAG, s);
