@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Fingeravtrykk <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">tilgang til fingeravtrykkstjenesten</string>
+  <string name="permdesc_accessFingerprintService">Gjør det mulig for en app å få tilgang til fingeravtrykkstjenesten. Appen kan legge til, slette, gi nytt navn på og godkjenne i forhold til fingeravtrykk</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">ลายนิ้วมือ <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">การเข้าถึงบริการลายนิ้วมือ</string>
+  <string name="permdesc_accessFingerprintService">อนุญาตให้แอพเข้าถึงบริการลายนิ้วมือ แอพสามารถเพิ่ม ลบ ตั้งชื่อใหม่ และรับรองความถูกต้องโดยเปรียบเทียบกับลายนิ้วมือ</string>
+</resources>

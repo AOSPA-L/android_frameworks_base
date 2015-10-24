@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Odtlačok prsta <xliff:g id="number">%d </xliff:g></string>
+  <string name="permlab_accessFingerprintService">prístup k službe odtlačku prstov</string>
+  <string name="permdesc_accessFingerprintService">Umožňuje prístup k službe odtlačku prstov. Aplikácia môže pridať, odstrániť, premenovať a vykonať overenie odtlačkov prstov</string>
+</resources>

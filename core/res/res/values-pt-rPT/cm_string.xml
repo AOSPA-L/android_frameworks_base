@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Impressão digital <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">aceder ao serviço de impressões digitais</string>
+  <string name="permdesc_accessFingerprintService">Permite que uma aplicação aceda ao serviço de impressão digital. A aplicação pode adicionar, eliminar, mudar o nome e autenticar ao comparar impressões digitais</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Prstni odtis <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">dostop do storitve prstnih odtisov</string>
+  <string name="permdesc_accessFingerprintService">Omogoča programu dostop do storitve prstnih odtisov. Program lahko doda, izbriše preimenuje ali overi s prstnimi odtisi</string>
+</resources>

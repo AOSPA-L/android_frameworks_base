@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Отисак <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">приступ сервису отиска прста</string>
+  <string name="permdesc_accessFingerprintService">Дозволи апликацији да приступи сервису отиска прста. Апликација може додати, обрисати, преименовати и потврђивати помоћу отиска прста</string>
+</resources>

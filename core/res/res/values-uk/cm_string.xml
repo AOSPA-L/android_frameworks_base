@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Відбиток пальця <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">Доступ до відбитків пальців</string>
+  <string name="permdesc_accessFingerprintService">Дозволяє додатку отримувати доступ до служби відбитків пальців. Додаток зможе додавати, видаляти, перейменовувати збережені відбитки та використовувати їх для автентифікації</string>
+</resources>

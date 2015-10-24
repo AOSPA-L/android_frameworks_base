@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Vingerafdruk <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">kry toegang tot vingerafdruk diens</string>
+  <string name="permdesc_accessFingerprintService">Laat \'n program toegang tot die vingerafdruk diens. Die program kan byvoeg, verwyder, hernoem en staaf teen vingerafdrukke</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Vingerafdruk <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">toegang tot vingerafdrukservice</string>
+  <string name="permdesc_accessFingerprintService">Hiermee kan de app toegang krijgen tot de vingerafdrukservice. De app kan vingerafdrukken toevoegen, verwijderen, hernoemen en gebruiken ter authenticatie.</string>
+</resources>

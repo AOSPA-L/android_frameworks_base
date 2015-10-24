@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Odcisk palca <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">dostęp do usługi odcisku palca</string>
+  <string name="permdesc_accessFingerprintService">Umożliwia aplikacji dostęp do usługi odcisku palca. Aplikacja może dodać, usunąć, zmienić nazwę i uwierzytelnić odcisk palca</string>
+</resources>

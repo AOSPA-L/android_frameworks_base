@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">指纹 <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">访问指纹服务</string>
+  <string name="permdesc_accessFingerprintService">允许应用访问指纹服务。应用可以添加、 删除、 重命名指纹，使用指纹进行身份验证</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Δακτυλικό αποτύπωμα <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">πρόσβαση στην υπηρεσία δακτυλικών αποτυπωμάτων</string>
+  <string name="permdesc_accessFingerprintService">Επιτρέπει σε μια εφαρμογή την πρόσβαση στην υπηρεσία δακτυλικών αποτυπωμάτων. Η εφαρμογή μπορεί να προσθέσει, να διαγράψει, να μετονομάσει και να ταυτοποιήσει δακτυλικά αποτυπώματα</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Impronta digitale <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">Accedi al servizio impronte digitali</string>
+  <string name="permdesc_accessFingerprintService">Consenti ad un\'app di accedere al servizio di impronte digitali. L\'app può aggiungere, eliminale, rinominare e riautenticare impronte digitali</string>
+</resources>

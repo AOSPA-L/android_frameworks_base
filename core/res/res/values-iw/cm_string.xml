@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">טביעת אצבע <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">גישה לשירות טביעות אצבע</string>
+  <string name="permdesc_accessFingerprintService">אפשר ליישום לגשת לשירות טביעות אצבע. היישום יוכל להוסיף, למחוק, לשנות שם ולבצע אימות מול טביעות אצבע</string>
+</resources>

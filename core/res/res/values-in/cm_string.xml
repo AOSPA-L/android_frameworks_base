@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Sidik Jari <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">akses layanan sidik jari</string>
+  <string name="permdesc_accessFingerprintService">Mengizinkan aplikasi untuk mengakses layanan sidik jari. Aplikasi bisa menambah, menghapus, mengubah nama, dan autentikasi sidik jari</string>
+</resources>

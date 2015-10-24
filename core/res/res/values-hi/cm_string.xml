@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">अँगुली छाप <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">अँगुली छाप सेवा में पहुँचें</string>
+  <string name="permdesc_accessFingerprintService">किसी ऐप को अँगुली छाप सेवा में पहुँचने की अनुमति दें। यह ऐप अँगुली छाप के बल पर जोड़ सकता है, हटा सकता है, नाम बदल सकता है और प्रमाणित कर सकता है</string>
+</resources>

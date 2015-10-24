@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">指紋 <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">存取指紋服務</string>
+  <string name="permdesc_accessFingerprintService">允許應用程式存取指紋服務。該應用程式可以新增、刪除、重新命名及驗證指紋</string>
+</resources>

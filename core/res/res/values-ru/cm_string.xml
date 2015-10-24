@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Отпечаток пальца <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">Доступ к отпечаткам пальцев</string>
+  <string name="permdesc_accessFingerprintService">Разрешение доступа к службе отпечатков пальцев. Приложение сможет добавлять, удалять, редактировать и использовать для авторизации отпечатки пальцев</string>
+</resources>

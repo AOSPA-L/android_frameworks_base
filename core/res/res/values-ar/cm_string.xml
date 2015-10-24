@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">بصمة الإصبع <xliff:g id="number">%d </xliff:g></string>
+  <string name="permlab_accessFingerprintService">الوصول إلى خدمة بصمة الإصبع</string>
+  <string name="permdesc_accessFingerprintService">يسمح للتطبيق بالوصول إلى خدمة بصمات الأصابع. ويمكن للتطبيق إضافة وحذف وإعادة تسمية ومصادقة بصمات الأصابع</string>
+</resources>

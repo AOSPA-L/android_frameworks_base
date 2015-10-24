@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">Vân tay <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">truy cập dịch vụ vân tay</string>
+  <string name="permdesc_accessFingerprintService">Cho phép ứng dụng truy cập dịch vụ vân tay. Ứng dụng có thể thêm, xoá, đổi tên và xác thực vân tay</string>
+</resources>

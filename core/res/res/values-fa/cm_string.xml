@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="fingerprint_default_name">اثر انگشت <xliff:g id="number">%d</xliff:g></string>
+  <string name="permlab_accessFingerprintService">دسترسی به سرویس اثر انگشت</string>
+  <string name="permdesc_accessFingerprintService">به برنامه اجازه می‌دهد به سرویس اثر انگشت دسترسی داشته باشد. برنامه می‌تواند افزودن، حذف، تغییرنام و تایید اثرهای انگشت را انجام دهد</string>
+</resources>
