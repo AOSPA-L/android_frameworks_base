@@ -20,7 +20,6 @@
   <string name="privacy_guard_dialog_title">Privātuma sargs</string>
   <string name="permlab_accessTorchService">Piekļuve spuldzes servisam</string>
   <string name="permdesc_accessTorchService">Ļauj  lietotnei piekļūt spuldzes servisam. Parastām lietotnēm to izmantot nav vajadzības.</string>
-</resources>
   <string name="permlab_accessThemeService">piekļūt tēmas servisam</string>
   <string name="permdesc_accessThemeService">Ļauj  lietotnei piekļūt tēmu servisam. Normālām lietotnēm to nekad nevajadzētu izmantot.</string>
   <string name="permlab_readThemes">lasīt jūsu tēmas informāciju</string>
@@ -33,3 +32,4 @@
   <string name="theme_reset_notification_title">Atstatīt tēmu</string>
   <string name="theme_reset_notification_body">Sakarā ar vairākām lietotņu kļūdām, atjaunota sistēmas tēma.</string>
   <string name="permlab_interceptSmsSent">Pārtvert izejošās SMS</string>
+</resources>
