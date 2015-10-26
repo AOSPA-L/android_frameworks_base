@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Tangkapan Layar</string>
+  <string name="permlab_receiveProtectedSms">terima SMS yang dilindungi</string>
+  <string name="global_action_reboot">Reboot</string>
+  <string name="global_action_current_user">Saat ini</string>
+  <string name="reboot_progress">Rebooting\u2026</string>
+  <string name="app_killed_message">Aplikasi dimatikan</string>
+  <string name="reboot_title">Reboot</string>
+  <string name="reboot_confirm" product="tablet">Tablet Anda akan direboot.</string>
+  <string name="reboot_confirm" product="default">Ponsel Anda akan direboot.</string>
+  <string name="progress_nomediapresent" product="default">Tidak ada piranti media yang dapat dilepas\u2026</string>
+  <string name="storage_uicc">Penyimpanan UICC</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download</string>
+  <string name="reboot_soft">Soft reboot</string>
+  <string name="permlab_setKeyguardWallpaper">set keyguard wallpaper</string>
+  <string name="permdesc_setKeyguardWallpaper">Izinkan aplikasi untuk mengubah wallpaper layar kunci.</string>
+  <string name="privacy_guard_dialog_title">Penjaga Privasi</string>
+  <string name="permlab_preventpower">menggantikan tombol daya</string>
+  <string name="permdesc_preventpower">Memungkinkan aplikasi untuk mengganti tombol daya.</string>
+  <string name="usb_extmedia_format_message">Semua data pada penyimpanan USB Anda (di bawah jalur \'%1$s\') akan dihapus. Tindakan ini tidak dapat dikembalikan!</string>
+  <string name="permlab_accessTorchService">akses layanan obor</string>
+  <string name="permdesc_accessTorchService">Mengizinkan sebuah aplikasi untuk mengakses layanan obor. Tidak diperlukan untuk aplikasi normal.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Senter aktif</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Tekan untuk mematikan</string>
+  <string name="storage_sd_dock_card">Kartu SD di dok</string>
+  <string name="permlab_accessThemeService">mengakses layanan tema</string>
+  <string name="permdesc_accessThemeService">Memungkinkan aplikasi untuk mengakses layanan tema. Seharusnya tidak diperlukan oleh aplikasi biasa.</string>
+  <string name="permlab_readThemes">baca info tema Anda</string>
+  <string name="permdesc_readThemesDesc">Izinkan aplikasi untuk membaca tema anda dan menentukan tema yang telah anda terapkan.</string>
+  <string name="permlab_writeThemes">modifikasi tema anda</string>
+  <string name="permdesc_writeThemesDesc">Izinkan aplikasi untuk memasukkan tema baru dan mengubah tema yang telah anda terapkan.</string>
+  <string name="permlab_readPhoneBlacklist">baca blacklist telepon</string>
+  <string name="theme_install_error_title">Gagal menginstal tema</string>
+  <string name="theme_install_error_message">%s gagal untuk di instal</string>
+  <string name="theme_reset_notification_title">Set ulang tema</string>
+  <string name="theme_reset_notification_body">Tema sitem dikembalikan karena beberapa aplikasi crash.</string>
+  <string name="stylus_app_not_installed">%s tidak terpasang</string>
+  <string name="lock_to_app_toast_no_navbar">Untuk melepas sematan layar ini, sentuh dan tahan tombol Kembali.</string>
+  <string name="live_display_auto">Otomatis</string>
+  <string name="live_display_auto_summary">Secara otomatis menyesuaikan suhu warna layar setelah matahari terbenam dan terbit</string>
+  <string name="live_display_off">Nonaktif</string>
+  <string name="live_display_off_summary">Menonaktifkan semua penyesuaian</string>
+  <string name="live_display_day">Hari</string>
+  <string name="live_display_day_summary">Menggunakan pengaturan hari hanya</string>
+  <string name="live_display_night">Malam</string>
+  <string name="live_display_night_summary">Menggunakan pengaturan malam saja</string>
+  <string name="live_display_outdoor">Luar ruangan (matahari terang)</string>
+  <string name="live_display_outdoor_summary">Gunakan pengaturan luar ruangan saja</string>
+  <string name="live_display_hint">LiveDisplay dapat membantu mengurangi kelelahan mata dan membantu Anda tidur di malam hari. Klik di sini untuk mencobanya!</string>
   <string name="fingerprint_default_name">Sidik Jari <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">akses layanan sidik jari</string>
   <string name="permdesc_accessFingerprintService">Mengizinkan aplikasi untuk mengakses layanan sidik jari. Aplikasi bisa menambah, menghapus, mengubah nama, dan autentikasi sidik jari</string>
+  <string name="permlab_resetBatteryStats">set ulang statistik baterai</string>
 </resources>

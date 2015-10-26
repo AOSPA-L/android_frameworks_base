@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Capturar ecrã</string>
+  <string name="permlab_receiveProtectedSms">receber SMS protegida</string>
+  <string name="global_action_reboot">Reiniciar</string>
+  <string name="global_action_current_user">Atual</string>
+  <string name="reboot_progress">A reiniciar\u2026</string>
+  <string name="app_killed_message">Aplicação terminada</string>
+  <string name="reboot_title">Reiniciar</string>
+  <string name="reboot_confirm" product="tablet">O seu tablet vai reiniciar.</string>
+  <string name="reboot_confirm" product="default">O seu telemóvel irá reiniciar.</string>
+  <string name="progress_nomediapresent" product="default">Sem media removível\u2026</string>
+  <string name="storage_uicc">Armazenamento UICC</string>
+  <string name="reboot_recovery">Recuperação</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download</string>
+  <string name="reboot_soft">Reinicialização suave</string>
+  <string name="permlab_setKeyguardWallpaper">Definir a imagem de fundo do ecrã de bloqueio</string>
+  <string name="permdesc_setKeyguardWallpaper">Permite a uma aplicação trocar a imagem de fundo do ecrã de bloqueio.</string>
+  <string name="privacy_guard_dialog_title">Proteção da Privacidade</string>
+  <string name="permlab_preventpower">substituir o botão de ligar/desligar</string>
+  <string name="permdesc_preventpower">Permite à aplicação sobrescrever o botão de ligar/desligar.</string>
+  <string name="usb_extmedia_format_message">Todos os dados do teu armazenamento USB (na diretoria \'%1$s\') vão ser eliminados. Esta ação não é reversível!</string>
+  <string name="permlab_accessTorchService">Aceder ao serviço da lanterna</string>
+  <string name="permdesc_accessTorchService">Permite a uma aplicação aceder ao serviço da lanterna. Nunca deverá ser necessário para aplicações normais.</string>
+  <string name="quick_settings_tile_flashlight_not_title">A lanterna está ligada</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Toque para desligar</string>
+  <string name="storage_sd_dock_card">Cartão SD da Dock</string>
+  <string name="permlab_accessThemeService">Aceder ao serviço de temas</string>
+  <string name="permdesc_accessThemeService">Permite a uma aplicação aceder ao serviço de temas. Nunca deverá ser necessário para aplicações normais.</string>
+  <string name="permlab_readThemes">ler a informação do tema</string>
+  <string name="permdesc_readThemesDesc">Permite a uma aplicação ler os seus temas e determinar qual o tema que têm aplicado.</string>
+  <string name="permlab_writeThemes">modificar os seus temas</string>
+  <string name="permdesc_writeThemesDesc">Permite a uma aplicação inserir novos temas e modificar o tema que têm aplicado.</string>
+  <string name="permlab_readPhoneBlacklist">Ler a lista negra do telefone</string>
+  <string name="theme_install_error_title">Falha ao instalar o tema</string>
+  <string name="theme_install_error_message">%s não instalou</string>
+  <string name="theme_reset_notification_title">Restaurar tema</string>
+  <string name="theme_reset_notification_body">O tema do sistema foi restaurado devido a vários erros nas aplicações.</string>
+  <string name="stylus_app_not_installed">%s não está instalada</string>
+  <string name="lock_to_app_toast_no_navbar">Para soltar este ecrã, toque e segure o botão Voltar.</string>
+  <string name="live_display_auto">Automático</string>
+  <string name="live_display_auto_summary">Ajusta automaticamente a temperatura de cor do ecrã após o pôr do sol e o nascer do sol</string>
+  <string name="live_display_off">Desligado</string>
+  <string name="live_display_off_summary">Desativar todos os ajustes</string>
+  <string name="live_display_day">Dia</string>
+  <string name="live_display_day_summary">Usar apenas as definições de dia</string>
+  <string name="live_display_night">Noite</string>
+  <string name="live_display_night_summary">Usar apenas as definições de noite</string>
+  <string name="live_display_outdoor">Exterior (sol brilhante)</string>
+  <string name="live_display_outdoor_summary">Usar apenas as definições de exterior</string>
+  <string name="live_display_hint">LiveDisplay pode ajudar a reduzir a fadiga ocular e ajudar-te a dormir à noite. Clique aqui para experimentar!</string>
   <string name="fingerprint_default_name">Impressão digital <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">aceder ao serviço de impressões digitais</string>
   <string name="permdesc_accessFingerprintService">Permite que uma aplicação aceda ao serviço de impressão digital. A aplicação pode adicionar, eliminar, mudar o nome e autenticar ao comparar impressões digitais</string>
+  <string name="permlab_resetBatteryStats">reiniciar estatísticas da bateria</string>
 </resources>

@@ -1,3 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">තිර සේයාව</string>
+  <string name="permlab_receiveProtectedSms">ආරක්‍ෂිත SMS ලබන්න</string>
+  <string name="global_action_reboot">යළි පණගන්වන්න</string>
+  <string name="reboot_reboot">නැවත පනගන්වන්න</string>
+  <string name="reboot_progress">නැවත පනගැන්වෙමින්\u2026</string>
+  <string name="adb_net_active_notification_title">ජාලය හරහා ADB සබලයි</string>
+  <string name="reboot_confirm" product="tablet">ඔබගේ ටැබ්ලටය නැවත පනගැන්වෙනු ඇත.</string>
+  <string name="reboot_confirm" product="default">ඔබගේ දුරකථනය නැවත පනගැන්වෙනු ඇත.</string>
+  <string name="progress_nomediapresent" product="default">ඉවත් කළ හැකි මාධ්‍ය කිසිවක් නැත\u2026</string>
+  <string name="storage_uicc">UICC ආචයනය</string>
+  <string name="reboot_recovery">ප්‍රතිසාධන ප්‍රකාරයට</string>
+  <string name="reboot_bootloader">ඇරඹුම් ප්‍රවේශකයට</string>
+  <string name="reboot_download">බාගැනීමේ ප්‍රකාරයට</string>
+  <string name="reboot_soft">මෘදුව නැවත පනගන්වන්න</string>
+  <string name="permlab_setKeyguardWallpaper">යතුරු රැක්මේ වෝල්පේපරය සකසන්න</string>
+  <string name="permdesc_setKeyguardWallpaper">අගුළු තිරයේ වෝල්පේපරය වෙනස්කිරීම සඳහා යෙදුමකට අවසර දෙන්න.</string>
+  <string name="privacy_guard_dialog_title">පෞද්ගලිකත්වයේ මුරකරු</string>
+  <string name="permlab_accessThemeService">තේමා සේවාව පරිශීලනය</string>
+  <string name="permdesc_accessThemeService">තේමා සේවාව පරිශීලනය සඳහා යෙදුමකට අවසර දෙන්න. සාමාන්‍ය යෙදුම් සඳහා කවදාවත්ම අවශ්‍ය නොවේ.</string>
+  <string name="permlab_readThemes">ඔබගේ තේමා තොරතුරු කියවන්න</string>
+  <string name="permdesc_readThemesDesc">ඔබගේ තේමා කියවීමට සහ ඔබ යොදා ඇත්තේ කුමන තේමාව දැයි නිර්ණය කිරීමට, යෙදුමට අවසර දෙන්න.</string>
+  <string name="permlab_writeThemes">ඔබගේ තේමා වෙනස් කරන්න</string>
+  <string name="permdesc_writeThemesDesc">අලුත් තේමා ඇතුල් කිරීමට සහ ඔබ යොදා ඇති තේමාව වෙනස් කිරීමට, යෙදුමට අවසර දෙන්න.</string>
+  <string name="permlab_readPhoneBlacklist">දුරකථන අපලේඛණය කියවීම</string>
+  <string name="theme_install_error_title">තේමාව ස්ථාපනයට අසමත්විය</string>
+  <string name="theme_install_error_message">%s ස්ථාපනයට අසමත්විය</string>
+  <string name="permlab_interceptSmsSent">යවන කෙටි පනිවිඩ අතුරුවැරීම</string>
 </resources>

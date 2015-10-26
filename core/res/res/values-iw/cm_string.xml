@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">צילום מסך</string>
+  <string name="permlab_receiveProtectedSms">קבלת הודעות SMS מוגנות</string>
+  <string name="global_action_reboot">הפעלה מחדש</string>
+  <string name="global_action_current_user">נוכחי</string>
+  <string name="reboot_progress">מאתחל\u2026</string>
+  <string name="app_killed_message">היישום נסגר</string>
+  <string name="reboot_title">הפעלה מחדש</string>
+  <string name="reboot_confirm" product="tablet">הטאבלט יופעל מחדש.</string>
+  <string name="reboot_confirm" product="default">המכשיר יופעל מחדש.</string>
+  <string name="progress_nomediapresent" product="default">אין מדיה חיצונית נוכחת\u2026</string>
+  <string name="storage_uicc">אחסון UICC</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">מצב הורדה</string>
+  <string name="reboot_soft">אתחול מהיר</string>
+  <string name="permlab_setKeyguardWallpaper">הגדרת טפט למסך הנעילה</string>
+  <string name="permdesc_setKeyguardWallpaper">מאפשר ליישום לשנות את הטפט של מסך הנעילה.</string>
+  <string name="privacy_guard_dialog_title">שומר הפרטיות</string>
+  <string name="permlab_preventpower">עקיפת כפתור ההפעלה</string>
+  <string name="permdesc_preventpower">מאפשר ליישום לעקוף את כפתור ההפעלה.</string>
+  <string name="usb_extmedia_format_message">כל המידע הנמצא על אחסון ה-USB (תחת הנתיב \"%1$s\") יימחק. פעולה זו בלתי הפיכה!</string>
+  <string name="permlab_accessTorchService">גישה לשירות הפנס (מבזק)</string>
+  <string name="permdesc_accessTorchService">מאפשר ליישום לגשת לשירות הפנס (מבזק). לא אמור להידרש ליישומים רגילים.</string>
+  <string name="quick_settings_tile_flashlight_not_title">הפנס מופעל</string>
+  <string name="quick_settings_tile_flashlight_not_summary">לחץ לכיבוי</string>
+  <string name="storage_sd_dock_card">כרטיס זיכרון של תחנת עגינה</string>
+  <string name="permlab_accessThemeService">גישה לשירות ערכות העיצוב</string>
+  <string name="permdesc_accessThemeService">מאפשר ליישום לגשת לשירות ערכות העיצוב. לא אמור להידרש ליישומים רגילים.</string>
+  <string name="permlab_readThemes">קריאת פרטי ערכת העיצוב שלך</string>
+  <string name="permdesc_readThemesDesc">מאפשר ליישום להיות מודע לערכות העיצוב הקיימות, ולקבוע איזו ערכה החלת.</string>
+  <string name="permlab_writeThemes">שינוי ערכות העיצוב שלך</string>
+  <string name="permdesc_writeThemesDesc">מאפשר ליישום להוסיף ערכות עיצוב חדשות ולשנות את הערכה המוחלת.</string>
+  <string name="permlab_readPhoneBlacklist">קריאת הרשימה השחורה של המכשיר</string>
+  <string name="theme_install_error_title">התקנת ערכת העיצוב נכשלה</string>
+  <string name="theme_install_error_message">התקנת %s נכשלה</string>
+  <string name="theme_reset_notification_title">אפס ערכת עיצוב</string>
+  <string name="theme_reset_notification_body">ערכת העיצוב של המערכת שוחזרה עקב קריסות תהליכים מרובות.</string>
+  <string name="stylus_app_not_installed">%s לא מותקן</string>
+  <string name="lock_to_app_toast_no_navbar">כדי לבטל נעיצת מסך זה, לחץ על כפתור \"חזור\" והחזק אותו.</string>
+  <string name="live_display_auto">אוטומטי</string>
+  <string name="live_display_auto_summary">התאם אוטומטית את טמפרטורת הצבע של המסך לאחר הזריחה והשקיעה</string>
+  <string name="live_display_off">כבוי</string>
+  <string name="live_display_off_summary">בטל את כל ההתאמות</string>
+  <string name="live_display_day">יום</string>
+  <string name="live_display_day_summary">השתמש בהגדרות יום בלבד</string>
+  <string name="live_display_night">לילה</string>
+  <string name="live_display_night_summary">השתמש בהגדרות לילה בלבד</string>
+  <string name="live_display_outdoor">בחוץ (שמש בהירה)</string>
+  <string name="live_display_outdoor_summary">השתמש בהגדרות חוץ בלבד</string>
+  <string name="live_display_hint">LiveDisplay יכולה למזער את עייפות העין ולעזור לך לישון בלילה. לחץ כאן כדי לנסות!</string>
   <string name="fingerprint_default_name">טביעת אצבע <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">גישה לשירות טביעות אצבע</string>
   <string name="permdesc_accessFingerprintService">אפשר ליישום לגשת לשירות טביעות אצבע. היישום יוכל להוסיף, למחוק, לשנות שם ולבצע אימות מול טביעות אצבע</string>
+  <string name="permlab_resetBatteryStats">איפוס סטטיסטיקות סוללה</string>
 </resources>

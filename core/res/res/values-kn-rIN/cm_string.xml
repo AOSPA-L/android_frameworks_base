@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">ಸ್ಕ್ರೀನ್‍ಶಾಟ್</string>
+  <string name="permlab_receiveProtectedSms">ಸಂರಕ್ಷಿತ ಎಸ್ಎಂಎಸ್ ಸ್ವೀಕರಿಸಿ</string>
+  <string name="global_action_reboot">ರಿಬೂಟ್</string>
+  <string name="global_action_current_user">ಪ್ರಸ್ತುತ</string>
+  <string name="reboot_progress">ರಿಬೂಟ್ ಆಗುತ್ತಿದೆ\u2026</string>
+  <string name="app_killed_message">ಆಪ್ ಕೊಲ್ಲಲಾಗಿದೆ</string>
+  <string name="reboot_title">ರಿಬೂಟ್</string>
+  <string name="reboot_confirm" product="tablet">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ರಿಬೂಟ್ ಆಗುವುದು.</string>
+  <string name="reboot_confirm" product="default">ನಿಮ್ಮ ಫೋನ್ ರಿಬೂಟ್ ಆಗುವುದು.</string>
+  <string name="progress_nomediapresent" product="default">ಯಾವುದೇ ತೆಗೆಯಬಹುದಾದ ಮಾಧ್ಯಮ ಪ್ರಸ್ತುತವಾಗಿಲ್ಲ\u2026</string>
+  <string name="storage_uicc">ಯುಐಸಿಸಿ ಸಂಗ್ರಹಣೆ</string>
+  <string name="reboot_recovery">ರಿಕವರಿ</string>
+  <string name="reboot_bootloader">ಬೂಟ್‍ಲೋಡರ್</string>
+  <string name="reboot_download">ಡೌನ್‍ಲೋಡ್</string>
+  <string name="reboot_soft">ಸಾಫ್ಟ್ ರಿಬೂಟ್</string>
+  <string name="permlab_setKeyguardWallpaper">ಕೀಗಾರ್ಡ್ ವಾಲ್‍ಪೇಪರ್ ಹೊಂದಿಕೆ</string>
+  <string name="permdesc_setKeyguardWallpaper">ಒಂದು ಆಪ್‍ಗೆ ಲಾಕ್ ಪರದೆಯ ವಾಲ್‍ಪೇಪರ್ ಬದಲಾಯಿಸಲು ಅನುಮತಿಸುತ್ತದೆ.</string>
+  <string name="privacy_guard_dialog_title">ಗೌಪ್ಯತಾ ರಕ್ಷಕ</string>
+  <string name="permlab_preventpower">ಪವರ್ ಕೀ ಅತಿಕ್ರಮಿಸು</string>
+  <string name="permdesc_preventpower">ಆಪ್‍ಗೆ ಪವರ್ ಕೀಲಿಯನ್ನು ಅತಿಕ್ರಮಿಸಲು ಅನುಮತಿಸುತ್ತದೆ.</string>
+  <string name="usb_extmedia_format_message">ನಿಮ್ಮ ಯುಎಸ್‍ಬಿ ಸಂಗ್ರಹಣೆಯಲ್ಲಿರುವ (\'%1$s\' ಮಾರ್ಗದ ಒಳಗಿರುವ) ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಅಳಿಸಿಸಲಾಗುತ್ತದೆ. ಈ ಕ್ರಿಯೆಯನ್ನು ಹಿಂದಿರುಗಿಸಲಾಗುವುದಿಲ್ಲ!</string>
+  <string name="permlab_accessTorchService">ಟಾರ್ಚ್ ಸೇವಯನ್ನು ಪ್ರವೇಶಿಸು</string>
+  <string name="permdesc_accessTorchService">ಒಂದು ಆಪ್‍ಗೆ ಟಾರ್ಚ್ ಸೇವೆಯನ್ನು ಪ್ರವೇಶಿಸಲು ಅನುಮತಿಸುತ್ತದೆ. ಸಾಮಾನ್ಯ ಆಪ್‍ಗಳಿಗೆ ಅವಶ್ಯಕತೆಯಿರುವುದಿಲ್ಲ.</string>
+  <string name="quick_settings_tile_flashlight_not_title">ಟಾರ್ಚ್ ಆನ್ ಆಗಿದೆ</string>
+  <string name="quick_settings_tile_flashlight_not_summary">ಆಫ್ ಮಾಡಲು ಸ್ಪರ್ಶಿಸಿ</string>
+  <string name="storage_sd_dock_card">ಡಾಕ್ SD ಕಾರ್ಡ್</string>
+  <string name="permlab_accessThemeService">ಥೀಮ್ ಸೇವೆಗೆ ಪ್ರವೇಶ</string>
+  <string name="permdesc_accessThemeService">ಆಪ್‍ಗೆ ಥೀಮ್ ಸೇವೆಯನ್ನು ಪ್ರವೇಶಿಸಲು ಅನುಮತಿಸು. ಸಾಮಾನ್ಯ ಆಪ್‍ಗಳಿಗೆ ಇದರ ಅವಶ್ಯಕತೆ ಇರುವುದಿಲ್ಲ.</string>
+  <string name="permlab_readThemes">ನಿಮ್ಮ ಥೀಮ್‍ನ ಮಾಹಿತಿಯನ್ನು ಓದು</string>
+  <string name="permdesc_readThemesDesc">ಆಪ್‍ಗೆ ನಿಮ್ಮ ಥೀಮ್‍ಗಳನ್ನು ಓದಲು ಅನುಮತಿಸುತ್ತದೆ ಮತ್ತು
+       ನೀವು ಯಾವ ಥೀಮ್ ಅನ್ವಯಿಸಿದ್ದೀರಿ ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ.</string>
+  <string name="permlab_writeThemes">ನಿಮ್ಮ ಥೀಮ್ಸನ್ನು ಮಾರ್ಪಡಿಸು</string>
+  <string name="permdesc_writeThemesDesc">ಆಪ್‍ಗೆ ಹೊಸ ಥೀಮ್‍ಗಳನ್ನು ಸೇರಿಸಲು ಅನುಮತಿಸುತ್ತದೆ ಮತ್ತು
+       ನೀವು ಅನ್ವಯಿಸಿರುವ ಥೀಮ್‍ನ್ನು ಮಾರ್ಪಡಿಸುತ್ತದೆ.</string>
+  <string name="theme_install_error_title">ಥೀಮ್ ಸ್ಥಾಪಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
+  <string name="theme_install_error_message">%s ಸ್ಥಾಪಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
+  <string name="theme_reset_notification_title">ಥೀಮ್ ಮರುಹೊಂದಿಕೆ</string>
+  <string name="theme_reset_notification_body">ಬಹು ಆಪ್ ಕ್ರಾಶ್‍ನ ಕಾರಣದಿಂದಾಗಿ ಸಿಸ್ಟಂ ಥೀಮನ್ನು ಪುನಃಸ್ಥಾಪಿಸಲಾಗಿದೆ.</string>
+  <string name="stylus_app_not_installed">%s ಸ್ಥಾಪಿತವಾಗಿಲ್ಲ</string>
+  <string name="lock_to_app_toast_no_navbar">ಪರದೆಯನ್ನು ಅನ್‍ಪಿನ್‍ಮಾಡಲು, ಹಿಂದೆ ಬಟನ್‍ ಸ್ಪರ್ಶಿಸಿ ಹಿಡಿಯಿರಿ.</string>
+  <string name="live_display_auto">ಸ್ವಯಂಚಾಲಿತ</string>
+  <string name="live_display_auto_summary">ಸೂರ್ಯಾಸ್ತ ಅಥವ ಸೂರ್ಯೋದಯದ ನಂತರ ಪರದೆಯ ಬಣ್ಣ ಉಷ್ಣಾಂಶವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸರಿಹೊಂದಿಸು</string>
+  <string name="live_display_off">ಆಫ್</string>
+  <string name="live_display_off_summary">ಎಲ್ಲಾ ಹೊಂದಾಣಿಕೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು</string>
+  <string name="live_display_day">ದಿನ</string>
+  <string name="live_display_day_summary">ದಿನ ಸೆಟ್ಟಿಂಗ್ಸನ್ನು ಮಾತ್ರ ಉಪಯೋಗಿಸು</string>
+  <string name="live_display_night">ರಾತ್ರಿ</string>
+  <string name="live_display_night_summary">ರಾತ್ರಿ ಸೆಟ್ಟಿಂಗ್ಸನ್ನು ಮಾತ್ರ ಉಪಯೋಗಿಸು</string>
+  <string name="live_display_outdoor">ಹೊರಾಂಗಣ (ಪ್ರಕಾಶಮಾನ ಸೂರ್ಯ)</string>
+  <string name="live_display_outdoor_summary">ಹೊರಾಂಗಣ ಸೆಟ್ಟಿಂಗ್ಸನ್ನು ಮಾತ್ರ ಉಪಯೋಗಿಸು</string>
+  <string name="live_display_hint">ಲೈವ್ ಡಿಸ್ಪ್ಲೆ ನಿಮ್ಮ ಕಣ್ಣಿನ ಆಯಾಸವನ್ನು ಕಡಿಮೆಮಾಡಿ ರಾತ್ರಿ ಮಲಗಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಇದನ್ನು ಪ್ರಯತ್ನಿಸಲು ಇಲ್ಲಿ ಒತ್ತಿ!</string>
   <string name="fingerprint_default_name">ಫಿಂಗರ್‍ಪ್ರಿಂಟ್ <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">ಫಿಂಗರ್‍ಪ್ರಿಂಟ್ ಸೇವೆಯನ್ನು ಪ್ರವೇಶಿಸು</string>
   <string name="permdesc_accessFingerprintService">ಆಪ್‍ಗೆ ಫಿಂಗರ್‍ಪ್ರಿಂಟ್ ಸೇವೆಯನ್ನು ಪ್ರವೇಶಿಸಲು ಅನುಮತಿಸುತ್ತದೆ. ಆಪ್ ಫಿಂಗರ್‍ಪ್ರಿಂಟ್ಸ್  ಬಲದ ಮೇಲೆ ಸೇರಿಸಬಹುದು, ಅಳಿಸಬಹುದು, ಮರುಹೆಸರಿಸಬಹುದು ಹಾಗು ದೃಢೀಕರಿಸಬಹುದು</string>
+  <string name="permlab_resetBatteryStats">ಬ್ಯಾಟರಿ ಅಂಕಿಅಂಶಗಳನ್ನು ಮರುಹೊಂದಿಸು</string>
 </resources>

@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Chụp ảnh màn hình</string>
+  <string name="permlab_receiveProtectedSms">nhận SMS được bảo vệ</string>
+  <string name="global_action_reboot">Khởi động lại</string>
+  <string name="global_action_current_user">Hiện tại</string>
+  <string name="reboot_progress">Đang khởi động lại\u2026</string>
+  <string name="app_killed_message">Đã buộc ngừng ứng dụng</string>
+  <string name="reboot_title">Khởi động lại</string>
+  <string name="reboot_confirm" product="tablet">Máy tính bảng của bạn sẽ khởi động lại.</string>
+  <string name="reboot_confirm" product="default">Điện thoại của bạn sẽ khởi động lại.</string>
+  <string name="progress_nomediapresent" product="default">Không có bộ nhớ tháo được khả dụng\u2026</string>
+  <string name="storage_uicc">Bộ nhớ UICC</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Tải về</string>
+  <string name="reboot_soft">Khởi động lại mềm</string>
+  <string name="permlab_setKeyguardWallpaper">thiết lập hình nền màn hình khóa</string>
+  <string name="permdesc_setKeyguardWallpaper">Cho phép ứng dụng thay đổi hình nền màn hình khoá.</string>
+  <string name="privacy_guard_dialog_title">Privacy Guard</string>
+  <string name="permlab_preventpower">thay thế phím nguồn</string>
+  <string name="permdesc_preventpower">Cho phép ứng dụng thay thế phím nguồn.</string>
+  <string name="usb_extmedia_format_message">Mọi dữ liệu trên bộ nhớ USB (trong đường dẫn \'%1$s\') sẽ bị xoá. Hành động này không thể khôi phục!</string>
+  <string name="permlab_accessTorchService">truy cập dịch vụ đèn pin</string>
+  <string name="permdesc_accessTorchService">Cho phép một ứng dụng truy cập dịch vụ đèn pin. Ứng dụng bình thường không bao giờ cần quyền này.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Đã bật đèn pin</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Bấm vào để tắt</string>
+  <string name="storage_sd_dock_card">Ổ cắm thẻ nhớ</string>
+  <string name="permlab_accessThemeService">truy cập dịch vụ chủ đề</string>
+  <string name="permdesc_accessThemeService">Cho phép ứng dụng truy cập dịch vụ chủ đề. Ứng dụng bình thường không bao giờ cần quyền này.</string>
+  <string name="permlab_readThemes">đọc thông tin chủ đề của bạn</string>
+  <string name="permdesc_readThemesDesc">Cho phép ứng dụng đọc và xác định chủ đề nào bạn đã áp dụng.</string>
+  <string name="permlab_writeThemes">sửa đổi chủ đề của bạn</string>
+  <string name="permdesc_writeThemesDesc">Cho phép ứng dụng thêm các chủ đề mới và thay đổi chủ đề bạn đã áp dụng.</string>
+  <string name="permlab_readPhoneBlacklist">đọc danh sách đen của điện thoại</string>
+  <string name="theme_install_error_title">Không thể cài đặt chủ đề</string>
+  <string name="theme_install_error_message">Không thể cài đặt %s</string>
+  <string name="theme_reset_notification_title">Đặt lại chủ đề</string>
+  <string name="theme_reset_notification_body">Đã khôi phục chủ đề hệ thống vì nhiều ứng dụng bị lỗi.</string>
+  <string name="stylus_app_not_installed">%s chưa được cài đặt</string>
+  <string name="lock_to_app_toast_no_navbar">Để bỏ ghim màn hình này, hãy chạm và giữ nút Quay lại.</string>
+  <string name="live_display_auto">Tự động</string>
+  <string name="live_display_auto_summary">Tự động điều chỉnh nhiệt độ màu của màn hình khi hoàng hôn và bình minh</string>
+  <string name="live_display_off">Tắt</string>
+  <string name="live_display_off_summary">Vô hiệu hoá tất cả điều chỉnh</string>
+  <string name="live_display_day">Ngày</string>
+  <string name="live_display_day_summary">Chỉ sử dụng các thiết lập ban ngày</string>
+  <string name="live_display_night">Đêm</string>
+  <string name="live_display_night_summary">Chỉ sử dụng các thiết lập ban đêm</string>
+  <string name="live_display_outdoor">Ngoài trời (ánh sáng mặt trời)</string>
+  <string name="live_display_outdoor_summary">Chỉ sử dụng các thiết lập ngoài trời</string>
+  <string name="live_display_hint">LiveDisplay có thể giúp giảm mỏi mắt và giúp bạn ngủ vào ban đêm. Nhấn vào đây để thử!</string>
   <string name="fingerprint_default_name">Vân tay <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">truy cập dịch vụ vân tay</string>
   <string name="permdesc_accessFingerprintService">Cho phép ứng dụng truy cập dịch vụ vân tay. Ứng dụng có thể thêm, xoá, đổi tên và xác thực vân tay</string>
+  <string name="permlab_resetBatteryStats">đặt lại thống kê pin</string>
 </resources>

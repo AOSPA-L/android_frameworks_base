@@ -19,57 +19,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="global_action_screenshot">Zrzut ekranu</string>
-  <string name="global_action_reboot">Uruchom ponownie</string>
-  <string name="reboot_progress">Ponowne uruchamianie\u2026</string>
-  <string name="reboot_title">Uruchom ponownie</string>
-  <string name="reboot_confirm" product="tablet">Telefon zostanie uruchomiony ponownie.</string>
-  <string name="reboot_confirm" product="default">Telefon zostanie uruchomiony ponownie.</string>
-  <string name="reboot">Uruchom ponownie</string>
-  <string name="reboot_recovery">Restart do recovery</string>
-  <string name="reboot_bootloader">Restart do bootloadera</string>
-  <string name="reboot_download">Uruchom w trybie Download</string>
-  <string name="permlab_setKeyguardWallpaper">Ustawianie tła ekranu blokady</string>
-  <string name="permdesc_setKeyguardWallpaper">Umożliwia aplikacji zmianę tapety ekranu blokady.</string>
-  <string name="setting_confirmation_always">Always</string>
-  <string name="setting_confirmation_just_once">Just once</string>
-  <string name="setting_confirmation_never">Never</string>
-  <string name="immersive_mode_confirmation_title">Immersive Mode Confirmation</string>
-  <string name="immersive_mode_confirmation_message">Would you like to enable the immersive mode confirmation dialog?</string>
-  <string name="safe_headset_warning_title">Safe Headset Volume</string>
-  <string name="safe_headset_warning_message">Would you like to disable the recommended volume level warning ?</string>
   <string name="android_installing_apk">Instalacja aplikacji
 <xliff:g id="number" example="123">%1$d</xliff:g> z
 <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
-  <string name="android_installing_title">Android jest instalowany\u2026</string>
-  <string name="permlab_preventpower">Zastąp klawisz zasilania</string>
-  <string name="permdesc_preventpower">Pozwala aplikacji na zastępowanie przycisku zasilania.</string>
-  <string name="permlab_accessTorchService">dostęp do latarki</string>
-  <string name="permdesc_accessTorchService">Umożliwia aplikacji dostęp do latarki. Nie powinno być wymagane przez standardowe aplikacje.</string>
-  <string name="quick_settings_tile_flashlight_not_title">Latarka włączona</string>
-  <string name="quick_settings_tile_flashlight_not_summary">Stuknij, aby wyłączyć</string>
-  <string name="permlab_accessThemeService">dostęp do usługi motywów</string>
-  <string name="permdesc_accessThemeService">Zezwala aplikacji na dostęp do usługi motywów. Zwykłe aplikacje nie powinny tego wymagać.</string>
-  <string name="permlab_readThemes">odczytuje informacje o motywie</string>
-  <string name="permdesc_readThemesDesc">Zezwala na odczyt motywów i ustalenie który został użyty.</string>
-  <string name="permlab_writeThemes">modyfikowanie twoich motywów</string>
-  <string name="permdesc_writeThemesDesc">Zezwalaj aplikacji dodać nowe motywy i modyfikować bierzący.</string>
-  <string name="theme_install_error_title">Nie udało się zainstalować motywu</string>
-  <string name="theme_install_error_message">%s nie udało się zainstalować</string>
-  <string name="theme_reset_notification_title">Reset motywu</string>
-  <string name="theme_reset_notification_body">Domyślny motyw został przywrócony z powodu wielu awarii aplikacji.</string>
-  <string name="lock_to_app_toast_no_navbar">Aby odpiąć ten ekran, dotknij i przytrzymaj przycisk Wstecz.</string>
-  <string name="permlab_useHardwareFramework">Użyj sprzętowego frameworka</string>
-  <string name="permdesc_useHardwareFramework">Umożliwia aplikacji na dostęp do frameworka CM.</string>
-  <string name="live_display_auto">Automatyczny</string>
-  <string name="live_display_auto_summary">Automatycznie dopasuj temperaturę kolorów ekranu po zachodzie i wschodnie słońca</string>
-  <string name="live_display_off">Wyłączone</string>
-  <string name="live_display_off_summary">Wyłącz wszystkie zmiany</string>
-  <string name="live_display_day">Dzień</string>
-  <string name="live_display_day_summary">Użyj ustawień tylko dzień</string>
-  <string name="live_display_night">Noc</string>
-  <string name="live_display_night_summary">Użyj ustawienia noc tylko</string>
-  <string name="live_display_outdoor">Na zewnątrz (jasne słońce)</string>
-  <string name="live_display_outdoor_summary">Użyj tylko ustawień na zewnątrz</string>
-  <string name="live_display_hint">LiveDisplay może zredukować zmęczenie oczu oraz może pomóc zasnąć w nocy.Kliknij aby wypróbować!</string>
 </resources>

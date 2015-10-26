@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Bildschirmfoto</string>
+  <string name="permlab_receiveProtectedSms">geschützte SMS empfangen</string>
+  <string name="global_action_reboot">Neu starten</string>
+  <string name="global_action_current_user">Aktuell</string>
+  <string name="reboot_progress">Neu starten\u2026</string>
+  <string name="app_killed_message">Anwendung beendet</string>
+  <string name="reboot_title">Neu starten</string>
+  <string name="reboot_confirm" product="tablet">Tablet wird neu gestartet</string>
+  <string name="reboot_confirm" product="default">Telefon wird neu gestartet</string>
+  <string name="progress_nomediapresent" product="default">Keine SD-Karte vorhanden\u2026</string>
+  <string name="storage_uicc">UICC-Speicher</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download</string>
+  <string name="reboot_soft">Schneller Neustart</string>
+  <string name="permlab_setKeyguardWallpaper">Sperrbildschirm-Hintergrund ändern</string>
+  <string name="permdesc_setKeyguardWallpaper">Ermöglicht der App, den Sperrbildschirm-Hintergrund zu ändern.</string>
+  <string name="privacy_guard_dialog_title">Datenschutz</string>
+  <string name="permlab_preventpower">Ein/Aus-Taste überschreiben</string>
+  <string name="permdesc_preventpower">Ermöglicht der App, der Ein/Aus-Taste eine andere Funktion zuzuweisen.</string>
+  <string name="usb_extmedia_format_message">Alle auf Ihrem USB-Speicher im Pfad \"%1$s\" abgelegten Dateien werden gelöscht. Diese Aktion kann nicht rückgängig gemacht werden!</string>
+  <string name="permlab_accessTorchService">auf die Taschenlampe zuzugreifen</string>
+  <string name="permdesc_accessTorchService">Ermöglicht der App, auf die Taschenlampe zuzugreifen. Wird für normale Apps nicht benötigt.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Taschenlampe ist angeschaltet</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Zum Ausschalten tippen</string>
+  <string name="storage_sd_dock_card">SD-Karte des Docks</string>
+  <string name="permlab_accessThemeService">Zugriff auf den Design-Dienst</string>
+  <string name="permdesc_accessThemeService">Ermöglicht der App, auf den Design-Dienst zuzugreifen. Wird für normale Apps nicht benötigt.</string>
+  <string name="permlab_readThemes">Design-Informationen lesen</string>
+  <string name="permdesc_readThemesDesc">Ermöglicht der App, auszulesen, welche Designs Sie installiert und aktiviert haben.</string>
+  <string name="permlab_writeThemes">aktives Design ändern</string>
+  <string name="permdesc_writeThemesDesc">Ermöglicht der App, neue Designs zu installieren und das aktive Design zu wählen.</string>
+  <string name="permlab_readPhoneBlacklist">Sperrliste lesen</string>
+  <string name="theme_install_error_title">Design konnte nicht intalliert werden</string>
+  <string name="theme_install_error_message">%s konnte nicht installiert werden</string>
+  <string name="theme_reset_notification_title">Design zurückgesetzt</string>
+  <string name="theme_reset_notification_body">Das System-Design wurde aufgrund mehrer App-Abstürze wiederhergestellt.</string>
+  <string name="stylus_app_not_installed">%s ist nicht installiert</string>
+  <string name="lock_to_app_toast_no_navbar">Um diese Ansicht zu lösen die Zurück-Taste drücken und halten.</string>
+  <string name="live_display_auto">Automatisch</string>
+  <string name="live_display_auto_summary">Farbtemperatur des Bildschirms nach Sonnenaufgang und Sonnenuntergang automatisch anpassen</string>
+  <string name="live_display_off">Aus</string>
+  <string name="live_display_off_summary">Alle Anpassungen deaktiviert</string>
+  <string name="live_display_day">Tag</string>
+  <string name="live_display_day_summary">Nur Tag-Modus verwenden</string>
+  <string name="live_display_night">Nacht</string>
+  <string name="live_display_night_summary">Nur Nacht-Modus verwenden</string>
+  <string name="live_display_outdoor">Außen (helle Sonne)</string>
+  <string name="live_display_outdoor_summary">Nur Außen-Modus verwenden</string>
+  <string name="live_display_hint">LiveDisplay kann gegen eine Überanstrengung der Augen und beim Schlafen in der Nacht helfen. Klicken Sie hier, um es auszuprobieren!</string>
   <string name="fingerprint_default_name">Fingerabdruck <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">auf Fingerabdruck-Dienst zugreifen</string>
   <string name="permdesc_accessFingerprintService">Ermöglicht der App, auf den Fingerabdruck-Dienst zuzugreifen. Die App kann Fingerabdrücke hinzufügen, löschen, ändern und verifizieren</string>
+  <string name="permlab_resetBatteryStats">Akku-Verlaufsdetails zurücksetzen</string>
 </resources>

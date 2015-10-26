@@ -19,59 +19,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="global_action_screenshot">Képernyőmentés</string>
-  <string name="global_action_reboot">Újraindítás</string>
-  <string name="reboot_progress">Újraindítás\u2026</string>
-  <string name="reboot_title">Újraindítás</string>
-  <string name="reboot_confirm" product="tablet">A táblagépe újraindul.</string>
-  <string name="reboot_confirm" product="default">A telefon újraindul.</string>
-  <string name="reboot">Újraindítás</string>
-  <string name="reboot_recovery">Recovery</string>
-  <string name="reboot_bootloader">Bootloader</string>
-  <string name="reboot_download">Download</string>
-  <string name="permlab_setKeyguardWallpaper">zárképernyő háttérképének beállítása</string>
-  <string name="permdesc_setKeyguardWallpaper">Lehetővé teszi az alkalmazás számára, hogy módosítsa a képernyőzár hátterét.</string>
-  <string name="setting_confirmation_always">Always</string>
-  <string name="setting_confirmation_just_once">Just once</string>
-  <string name="setting_confirmation_never">Never</string>
-  <string name="immersive_mode_confirmation_title">Immersive Mode Confirmation</string>
-  <string name="immersive_mode_confirmation_message">Would you like to enable the immersive mode confirmation dialog?</string>
-  <string name="safe_headset_warning_title">Safe Headset Volume</string>
-  <string name="safe_headset_warning_message">Would you like to disable the recommended volume level warning ?</string>
   <string name="android_installing_apk">Alkalmazás telepítése
         <xliff:g id="number" example="123">%1$d</xliff:g> /
         <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
-  <string name="android_installing_title">Android telepítése\u2026</string>
-  <string name="permlab_preventpower">kikapcsológomb felülírása</string>
-  <string name="permdesc_preventpower">Lehetővé teszi egy alkalmazás számára a kikapcsológomb felülbírálatát.</string>
-  <string name="permlab_accessTorchService">hozzáférés a zseblámpa szolgáltatáshoz</string>
-  <string name="permdesc_accessTorchService">Lehetővé teszi az alkalmazás számára, hogy hozzáférjen a zseblámpa szolgáltatáshoz. Általános alkalmazásoknak soha nem kell ilyen engedély.</string>
-  <string name="quick_settings_tile_flashlight_not_title">Zseblámpa be</string>
-  <string name="quick_settings_tile_flashlight_not_summary">Érintse meg a kikapcsoláshoz</string>
-  <string name="permlab_accessThemeService">hozzáférés a témaszolgáltatáshoz</string>
-  <string name="permdesc_accessThemeService">Lehetővé teszi az alkalmazás számára, hogy hozzáférjen a témaszolgáltatáshoz. Általános alkalmazásoknak soha nem kell ilyen engedély.</string>
-  <string name="permlab_readThemes">téma információinak olvasása</string>
-  <string name="permdesc_readThemesDesc">Lehetővé teszi az alkalmazás számára, hogy megtekintse
-       a témákat és megállapítsa, melyik téma aktív.</string>
-  <string name="permlab_writeThemes">témák módosítása</string>
-  <string name="permdesc_writeThemesDesc">Lehetővé teszi az alkalmazás számára, hogy új témákat
-       hozzon létre és módosítsa a jelenleg aktív témát.</string>
-  <string name="theme_install_error_title">Téma telepítése sikertelen</string>
-  <string name="theme_install_error_message">Sikertelen telepítés: %s</string>
-  <string name="theme_reset_notification_title">Téma viszaállítása</string>
-  <string name="theme_reset_notification_body">Több alkalmazás összeomlása miatt a rendszer téma visszaállításra került.</string>
-  <string name="lock_to_app_toast_no_navbar">A képernyő zárolásának feloldásához érintse meg és tartsa nyomva a Vissza gombot.</string>
-  <string name="permlab_useHardwareFramework">hardver keretrendszer használata</string>
-  <string name="permdesc_useHardwareFramework">Lehetővé teszi az alkalmazás számára, hogy  hozzáférjen a CM hardver keretrendszerhez.</string>
-  <string name="live_display_auto">Automatikus</string>
-  <string name="live_display_auto_summary">Automatikusan beállítja a képernyő színhőmérsékletét naplemente és napkelte után</string>
-  <string name="live_display_off">Ki</string>
-  <string name="live_display_off_summary">Összes módosítás letiltása</string>
-  <string name="live_display_day">Nappal</string>
-  <string name="live_display_day_summary">Csak nappali beállítások használata</string>
-  <string name="live_display_night">Éjszaka</string>
-  <string name="live_display_night_summary">Csak éjszakai beállítások használata</string>
-  <string name="live_display_outdoor">Kültéri (fényes nap)</string>
-  <string name="live_display_outdoor_summary">Csak kültéri beállítások használata</string>
-  <string name="live_display_hint">LiveDisplay segíthet csökkenteni a szem terhelését, és segít éjszaka aludni. Kattintson ide, hogy kipróbálja!</string>
 </resources>

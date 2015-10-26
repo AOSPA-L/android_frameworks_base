@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Ekran şəkli</string>
+  <string name="permlab_receiveProtectedSms">qorunan SMS qəbul et</string>
+  <string name="global_action_reboot">Yenidən başlat</string>
+  <string name="global_action_current_user">Hazırki</string>
+  <string name="reboot_progress">Yenidən başladılır\u2026</string>
+  <string name="app_killed_message">Tətbiq sonlandırıldı</string>
+  <string name="reboot_title">Yenidən başlat</string>
+  <string name="reboot_confirm" product="tablet">Planşetiniz yenidən başladılacaq.</string>
+  <string name="reboot_confirm" product="default">Telefonunuz yenidən başlayacaq.</string>
+  <string name="progress_nomediapresent" product="default">Çıxarılacaq media yoxdur\u2026</string>
+  <string name="storage_uicc">UICC saxlama</string>
+  <string name="reboot_recovery">Bərpa rejimi (Recovery)</string>
+  <string name="reboot_bootloader">Önyükləyici (Bootloader)</string>
+  <string name="reboot_download">Endirmə rejimi</string>
+  <string name="reboot_soft">Proqram təminatını yenidən başlatma</string>
+  <string name="permlab_setKeyguardWallpaper">klaviatura divar kağızını tənzimlə</string>
+  <string name="permdesc_setKeyguardWallpaper">Tətbiqetmənin kilit ekranı divar kağızını dəyişdirməsinə icazə verər.</string>
+  <string name="privacy_guard_dialog_title">Gizlilik Qoruması</string>
+  <string name="permlab_preventpower">güc düyməsinin funksiyasını dəyişdir</string>
+  <string name="permdesc_preventpower">Tətbiqetməyə güc düyməsinin funksiyasını dəyişdirmə icazəsi verər.</string>
+  <string name="usb_extmedia_format_message">USB saxlama (\'%1$s\') yerinizdəki bütün verilənlər silənəcək. Bu hərəkətin geri dönüşü yoxdur!</string>
+  <string name="permlab_accessTorchService">fənər xidmətinə müraciət</string>
+  <string name="permdesc_accessTorchService">Tətbiqetməyə fənər xidmətinə müraciətinə icazə verər. Normal tətbiqetmələr üçün lazım deyil.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Fənər açıqdır</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Fənəri bağlamaq üçün toxunun</string>
+  <string name="storage_sd_dock_card">SD kart modulu</string>
+  <string name="permlab_accessThemeService">tema xidmətinə müraciət</string>
+  <string name="permdesc_accessThemeService">Tətbiqetmənin tema xidmətinə müraciətinə icazə verər. Normal tətbiqlər üçün buna ehtiyac yoxdur.</string>
+  <string name="permlab_readThemes">tema məlumatını oxu</string>
+  <string name="permdesc_readThemesDesc">Tətbiqetmənin temalarınızı oxumasına və hansı temanı tətbiq etdiyinizi müəyyən etməyə icazə verər.</string>
+  <string name="permlab_writeThemes">temaları dəyişin</string>
+  <string name="permdesc_writeThemesDesc">Tətbiqetmənin yeni temalar əlavə etməsinə və tətbiq etdiyiniz temanı dəyişdirməsinə icazə verər.</string>
+  <string name="permlab_readPhoneBlacklist">telefon qara siyahısını oxu</string>
+  <string name="theme_install_error_title">Tema yüklənə bilmədi</string>
+  <string name="theme_install_error_message">%s yüklənə bilmədi</string>
+  <string name="theme_reset_notification_title">Tema sıfırlandı</string>
+  <string name="theme_reset_notification_body">Tətbiqetmə çökmələrinə görə sistem teması bərpa edildi.</string>
+  <string name="stylus_app_not_installed">%s quraşdırılmayıb</string>
+  <string name="lock_to_app_toast_no_navbar">Bu ekranı çıxarmaq üçün Geri düyməsinə toxunub basılı tutun.</string>
+  <string name="live_display_auto">Avtomatik</string>
+  <string name="live_display_auto_summary">Gün çıxandan və batandan sonra ekranın rəng hərarətini avtomatik tənzimləyər</string>
+  <string name="live_display_off">Bağlı</string>
+  <string name="live_display_off_summary">Bütün tənzimləmələri ləğv et</string>
+  <string name="live_display_day">Gündüz</string>
+  <string name="live_display_day_summary">Yalnız gündüz tənziml. istifadə et</string>
+  <string name="live_display_night">Gecə</string>
+  <string name="live_display_night_summary">Yalnız gecə tənziml. istifadə et</string>
+  <string name="live_display_outdoor">Açıq hava (parlaq günəş)</string>
+  <string name="live_display_outdoor_summary">Yalnız açıq hava tənziml. istifadə et</string>
+  <string name="live_display_hint">LiveDisplay göz yorğunluğunuzu azaldıb gecələri yuxulamağınıza kömək edə bilər. Yoxlamaq üçün bura klikləyin!</string>
   <string name="fingerprint_default_name">Barmaq izi <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">barmaq izi xidmətinə müraciət</string>
   <string name="permdesc_accessFingerprintService">Tətbiqetməyə barmaq izi xidmətinə müraciət etməsinə icazə verər. Tətbiqetmə barmaq izlərini əlavə edə, silə, yenidən adlandıra və kimliyinizi təsdiqləyə bilər</string>
+  <string name="permlab_resetBatteryStats">batareya statistikalarını sıfırla</string>
 </resources>

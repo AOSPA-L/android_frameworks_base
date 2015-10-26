@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Skermfoto</string>
+  <string name="permlab_receiveProtectedSms">ontvang beskermde SMS</string>
+  <string name="global_action_reboot">Herlaai</string>
+  <string name="global_action_current_user">Huidige</string>
+  <string name="reboot_progress">Herlaai\u2026</string>
+  <string name="app_killed_message">Program beëindig</string>
+  <string name="reboot_title">Herlaai</string>
+  <string name="reboot_confirm" product="tablet">Jou tablet gaan herlaai.</string>
+  <string name="reboot_confirm" product="default">Jou foon gaan herlaai.</string>
+  <string name="progress_nomediapresent" product="default">Geen verwyderbare media beskikbaar nie\u2026</string>
+  <string name="storage_uicc">UICC stoor spasie</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download</string>
+  <string name="reboot_soft">Vinnige herlaai</string>
+  <string name="permlab_setKeyguardWallpaper">Stel slotskerm agtergrond in</string>
+  <string name="permdesc_setKeyguardWallpaper">Laat \'n program toe om die slotskerm agtergrond te verander.</string>
+  <string name="privacy_guard_dialog_title">Privaatheidswag</string>
+  <string name="permlab_preventpower">verander krag sleutel</string>
+  <string name="permdesc_preventpower">Laat die program toe om die krag knoppie se gebruik te verander.</string>
+  <string name="usb_extmedia_format_message">Alle data op jou USB-berging (onder die pad \'%1$s\') sal uitgevee word. Hierdie aksie kan nie ontdoen word nie!</string>
+  <string name="permlab_accessTorchService">toegang na flits diens</string>
+  <string name="permdesc_accessTorchService">Laat \'n program toe om toegang na die flits diens te verkry. Sal nooit nodig wees vir normale programme nie.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Flitslig is aan</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Raak om af te skakel</string>
+  <string name="storage_sd_dock_card">Dok SD-kaart</string>
+  <string name="permlab_accessThemeService">Toegang tot tema diens</string>
+  <string name="permdesc_accessThemeService">Laat \'n program toe om toegang na die tema diens te verkry. Moet nooit nodig wees vir normale programme nie.</string>
+  <string name="permlab_readThemes">lees jou tema inligting</string>
+  <string name="permdesc_readThemesDesc">Laat die program toe om jou temas te lees en bepaal watter tema jy toegepas het.</string>
+  <string name="permlab_writeThemes">verander jou temas</string>
+  <string name="permdesc_writeThemesDesc">Laat die program toe om nuwe temas by te voeg en verander die tema wat jy toegepas het.</string>
+  <string name="permlab_readPhoneBlacklist">lees foon swartlys</string>
+  <string name="theme_install_error_title">Kon nie tema installeer</string>
+  <string name="theme_install_error_message">%s kon nie geïnstalleer word nie</string>
+  <string name="theme_reset_notification_title">Tema herstel</string>
+  <string name="theme_reset_notification_body">Stelsel tema is herstel a.g.v. baie program foute.</string>
+  <string name="stylus_app_not_installed">%s is nie geïnstalleer nie</string>
+  <string name="lock_to_app_toast_no_navbar">Om die skerm te ontspeld, raak en hou die Terug knoppie.</string>
+  <string name="live_display_auto">Outomaties</string>
+  <string name="live_display_auto_summary">Kleurtemperatuur van die skerm sal outomaties aanpas na sononder en sonop</string>
+  <string name="live_display_off">Af</string>
+  <string name="live_display_off_summary">Skakel al die aanpassings af</string>
+  <string name="live_display_day">Dag</string>
+  <string name="live_display_day_summary">Alleenlik gebruik dag instellings</string>
+  <string name="live_display_night">Nag</string>
+  <string name="live_display_night_summary">Alleenlik gebruik nag instellings</string>
+  <string name="live_display_outdoor">Buitekant (helder son)</string>
+  <string name="live_display_outdoor_summary">Alleenlik gebruik buite instellings</string>
+  <string name="live_display_hint">LewendigeVertoning kan jou oogspanning verminder en help jou slaap in die nag. Klik hier om dit uit te probeer!</string>
   <string name="fingerprint_default_name">Vingerafdruk <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">kry toegang tot vingerafdruk diens</string>
   <string name="permdesc_accessFingerprintService">Laat \'n program toegang tot die vingerafdruk diens. Die program kan byvoeg, verwyder, hernoem en staaf teen vingerafdrukke</string>
+  <string name="permlab_resetBatteryStats">herstel battery statistieke</string>
 </resources>

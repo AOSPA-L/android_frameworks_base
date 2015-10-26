@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Snímek obrazovky</string>
+  <string name="permlab_receiveProtectedSms">přijímat chráněné SMS</string>
+  <string name="global_action_reboot">Restartovat</string>
+  <string name="global_action_current_user">Aktuální</string>
+  <string name="reboot_progress">Restart\u2026</string>
+  <string name="app_killed_message">Aplikace byla ukončena</string>
+  <string name="reboot_title">Restartovat</string>
+  <string name="reboot_confirm" product="tablet">Tablet bude restartován.</string>
+  <string name="reboot_confirm" product="default">Telefon bude restartován.</string>
+  <string name="progress_nomediapresent" product="default">Není dostupné žádné vyměnitelné médium\u2026</string>
+  <string name="storage_uicc">Úložiště UICC</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download</string>
+  <string name="reboot_soft">Soft reboot</string>
+  <string name="permlab_setKeyguardWallpaper">nastavit tapetu zámku kláves</string>
+  <string name="permdesc_setKeyguardWallpaper">Umožní změnit tapetu zámku obrazovky.</string>
+  <string name="privacy_guard_dialog_title">Ochrana soukromí</string>
+  <string name="permlab_preventpower">změnit tlačítko zapínání</string>
+  <string name="permdesc_preventpower">Umožní změnit chování tlačítka pro zapínání a vypínání.</string>
+  <string name="usb_extmedia_format_message">Všechna data na USB úložišti (ve složce „%1$s“) budou smazána. Tuto akci nelze vrátit zpět!</string>
+  <string name="permlab_accessTorchService">Přístup ke svítilně</string>
+  <string name="permdesc_accessTorchService">Umožňuje přístup ke svítilně. Toto oprávnění by neměla vyžadovat žádná normální aplikace.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Svítilna je zapnuta</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Dotykem vypnout</string>
+  <string name="storage_sd_dock_card">SD karta doku</string>
+  <string name="permlab_accessThemeService">přístup ke službě motivu</string>
+  <string name="permdesc_accessThemeService">Umožňuje přistupovat ke službě motivu. Toto oprávnění by neměla vyžadovat žádná normální aplikace.</string>
+  <string name="permlab_readThemes">čtení informace o motivu</string>
+  <string name="permdesc_readThemesDesc">Umožňuje načíst motivy a určit, který motiv je použit.</string>
+  <string name="permlab_writeThemes">změnit motiv</string>
+  <string name="permdesc_writeThemesDesc">Umožňuje vložit nový motiv a změnit informaci o tom, který motiv je použit.</string>
+  <string name="permlab_readPhoneBlacklist">čtení černé listiny telefonu</string>
+  <string name="theme_install_error_title">Instalace motivu selhala</string>
+  <string name="theme_install_error_message">Instalace „%s“ selhala</string>
+  <string name="theme_reset_notification_title">Obnovit motiv</string>
+  <string name="theme_reset_notification_body">Kvůli pádům aplikací byl obnoven výchozí systémový motiv.</string>
+  <string name="stylus_app_not_installed">Aplikace %s není nainstalována</string>
+  <string name="lock_to_app_toast_no_navbar">Chcete-li odebrat tuto obrazovku, podržte tlačítko Zpět.</string>
+  <string name="live_display_auto">Automaticky</string>
+  <string name="live_display_auto_summary">Automaticky upravit teplotu barev obrazovky po západu a východu slunce</string>
+  <string name="live_display_off">Vypnuto</string>
+  <string name="live_display_off_summary">Zakázat všechny úpravy</string>
+  <string name="live_display_day">Den</string>
+  <string name="live_display_day_summary">Nastavení pouze pro den</string>
+  <string name="live_display_night">Noc</string>
+  <string name="live_display_night_summary">Nastavení pouze pro noc</string>
+  <string name="live_display_outdoor">Venku (slunečno)</string>
+  <string name="live_display_outdoor_summary">Nastavení pouze pro venkovní</string>
+  <string name="live_display_hint">LiveDisplay může pomoci proti namáhání očí a také spánku v noci. Dotykem zde tuto funkci můžete vyzkoušet!</string>
   <string name="fingerprint_default_name">Otisk prstu <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">přístup ke službě otisku prstů</string>
   <string name="permdesc_accessFingerprintService">Umožní přístup ke službě otisku prstů. Aplikace může přidat, odebrat, přejmenovat a provést ověření otiskem prstů</string>
+  <string name="permlab_resetBatteryStats">obnovení statistiky baterie</string>
 </resources>

@@ -1,3 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">স্ক্রীনসর্ট</string>
+  <string name="permlab_receiveProtectedSms">সুরক্ষিত এসএমএস গৃহীত হবে</string>
+  <string name="global_action_reboot">পুনরায় চালু</string>
+  <string name="reboot_reboot">পুনরায় চালু</string>
+  <string name="reboot_progress">পুনরায় চালু হচ্ছে\u2026</string>
+  <string name="adb_net_active_notification_title">নেটওয়ার্কের উপর এডিবি সক্রিয়</string>
+  <string name="reboot_confirm" product="tablet">আপনার ট্যাবলেট পুনরায় চালু হবে।</string>
+  <string name="reboot_confirm" product="default">আপনার ফোন পুনরায় চালু হবে।</string>
+  <string name="progress_nomediapresent" product="default">অপসারণযোগ্য মিডিয়া উপস্থিত নেই\u2026</string>
+  <string name="storage_uicc">UICC ভান্ডার</string>
+  <string name="reboot_recovery">পুনরুদ্ধার</string>
+  <string name="reboot_bootloader">বুটলোডার</string>
+  <string name="reboot_download">ডাউনলোড</string>
+  <string name="reboot_soft">দ্রুত পুনরায় চালু</string>
+  <string name="permlab_setKeyguardWallpaper">কীগার্ড ওয়ালপেপার নির্ধারণ</string>
+  <string name="permdesc_setKeyguardWallpaper">অ্যাপটিকে লক স্ক্রীন ওয়ালপেপার পরিবর্তনের অনুমতি দিন।</string>
+  <string name="privacy_guard_dialog_title">গোপনীয়তা রক্ষাকারী</string>
+  <string name="permlab_accessThemeService">থীম সেবায় প্রবেশাধিকার</string>
+  <string name="permdesc_accessThemeService">একটি অ্যাপকে থীম সেবায় প্রবেশাধিকাররে অনুমতি দিন। স্বাভাবিক অ্যাপগুলির জন্য কখনো প্রয়োজন হবে না।</string>
+  <string name="permlab_readThemes">আপনার থীমের তথ্য নির্ণয়</string>
+  <string name="permdesc_readThemesDesc">একটি অ্যাপকে আপনার থীম নির্ণয়ের এবং আপনি কোন থীম প্রয়োগ করেছেন তা নির্ধারণের অনুমতি দিন।</string>
+  <string name="permlab_writeThemes">আপনার থীমের কিছুটা রূপান্তর</string>
+  <string name="permdesc_writeThemesDesc">অ্যাপটিকে নতুন থীমের সন্নিবেশ করার এবং আপনি যে থীমটি প্রয়োগ করেছেন তার কিছুটা রূপান্তর করার অনুমতি প্রদান করুন।</string>
+  <string name="permlab_readPhoneBlacklist">ফোনের নিষিদ্ধ তালিকা পড়ুন</string>
+  <string name="theme_install_error_title">থিম ইনস্টল করতে ব্যর্থ হয়েছে</string>
+  <string name="theme_install_error_message">%s ইনস্টল করতে ব্যর্থ হয়েছে</string>
+  <string name="permlab_interceptSmsSent">বহির্গামী এসএমএস বিছিন্ন</string>
 </resources>

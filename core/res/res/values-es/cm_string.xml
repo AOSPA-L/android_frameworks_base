@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Capturar pantalla</string>
+  <string name="permlab_receiveProtectedSms">recibir SMS protegidos</string>
+  <string name="global_action_reboot">Reiniciar</string>
+  <string name="global_action_current_user">Actual</string>
+  <string name="reboot_progress">Reiniciando\u2026</string>
+  <string name="app_killed_message">Aplicación finalizada</string>
+  <string name="reboot_title">Reiniciar</string>
+  <string name="reboot_confirm" product="tablet">El tablet se reiniciará.</string>
+  <string name="reboot_confirm" product="default">El teléfono se reiniciará.</string>
+  <string name="progress_nomediapresent" product="default">No hay medios extraíbles\u2026</string>
+  <string name="storage_uicc">Almacenamiento UICC</string>
+  <string name="reboot_recovery">Modo Recovery</string>
+  <string name="reboot_bootloader">Modo Bootloader</string>
+  <string name="reboot_download">Modo Download</string>
+  <string name="reboot_soft">Reinicio rápido</string>
+  <string name="permlab_setKeyguardWallpaper">establecer fondo de pantalla de bloqueo</string>
+  <string name="permdesc_setKeyguardWallpaper">Permite que la aplicación establezca el fondo de pantalla de bloqueo.</string>
+  <string name="privacy_guard_dialog_title">Privacidad</string>
+  <string name="permlab_preventpower">tecla de encendido</string>
+  <string name="permdesc_preventpower">Permite que la aplicación cambie el comportamiento de la tecla de encendido.</string>
+  <string name="usb_extmedia_format_message">Toda la información del almacenamiento USB (en la ruta \u00AB%1$s\u00BB) será borrada. ¡Esta acción no se puede deshacer!</string>
+  <string name="permlab_accessTorchService">acceso a la linterna</string>
+  <string name="permdesc_accessTorchService">Permite que la aplicación acceda a la linterna. Nunca debería ser necesario para aplicaciones normales.</string>
+  <string name="quick_settings_tile_flashlight_not_title">La linterna está encendida</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Toca para apagarla</string>
+  <string name="storage_sd_dock_card">Tarjeta SD de la base</string>
+  <string name="permlab_accessThemeService">acceso al servicio de temas</string>
+  <string name="permdesc_accessThemeService">Permite que la aplicación acceda al servicio de temas. Nunca debería ser necesario para aplicaciones normales.</string>
+  <string name="permlab_readThemes">leer información de los temas</string>
+  <string name="permdesc_readThemesDesc">Permite que la aplicación lea los temas instalados y determine cual es el aplicado actualmente.</string>
+  <string name="permlab_writeThemes">modificar los temas</string>
+  <string name="permdesc_writeThemesDesc">Permite que la aplicación añada nuevos temas y modifique el tema aplicado actualmente.</string>
+  <string name="permlab_readPhoneBlacklist">leer lista negra del teléfono</string>
+  <string name="theme_install_error_title">Fallo al instalar el tema</string>
+  <string name="theme_install_error_message">Fallo al instalar %s</string>
+  <string name="theme_reset_notification_title">Tema restablecido</string>
+  <string name="theme_reset_notification_body">Tema del sistema restablecido debido a múltiples cierres de la aplicación.</string>
+  <string name="stylus_app_not_installed">%s no está instalada</string>
+  <string name="lock_to_app_toast_no_navbar">Para liberar esta pantalla, mantén pulsado el botón Atrás.</string>
+  <string name="live_display_auto">Automático</string>
+  <string name="live_display_auto_summary">Ajustar automáticamente la temperatura del color de pantalla con el amanecer y el anochecer</string>
+  <string name="live_display_off">Desactivado</string>
+  <string name="live_display_off_summary">Deshabilitar todos los ajustes</string>
+  <string name="live_display_day">Día</string>
+  <string name="live_display_day_summary">Utilizar solo los ajustes de día</string>
+  <string name="live_display_night">Noche</string>
+  <string name="live_display_night_summary">Utilizar solo los ajustes de noche</string>
+  <string name="live_display_outdoor">Al aire libre (luz del sol)</string>
+  <string name="live_display_outdoor_summary">Utilizar solo los ajustes al aire libre</string>
+  <string name="live_display_hint">LiveDisplay puede reducir la fatiga visual y ayudar a dormir por la noche. ¡Toca aquí para probarlo!</string>
   <string name="fingerprint_default_name">Huella digital <xliff:g id="number">%d </xliff:g></string>
   <string name="permlab_accessFingerprintService">acceder al servicio de huella digital</string>
   <string name="permdesc_accessFingerprintService">Permite a una aplicación acceder al servicio de huella digital. La aplicación puede agregar, eliminar, renombrar y autenticar contra las huellas digitales</string>
+  <string name="permlab_resetBatteryStats">restablecer estadísticas de batería</string>
 </resources>

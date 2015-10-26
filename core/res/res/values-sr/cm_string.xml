@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Снимак екрана</string>
+  <string name="permlab_receiveProtectedSms">прими заштићени SMS</string>
+  <string name="global_action_reboot">Рестартуј</string>
+  <string name="global_action_current_user">Тренутно</string>
+  <string name="reboot_progress">Рестартовање\u2026</string>
+  <string name="app_killed_message">Апликација је затворена</string>
+  <string name="reboot_title">Рестартуј</string>
+  <string name="reboot_confirm" product="tablet">Tаблет ће се рестартовати.</string>
+  <string name="reboot_confirm" product="default">Tелефон ће се рестартовати.</string>
+  <string name="progress_nomediapresent" product="default">Нема присутних преносивих медија\u2026</string>
+  <string name="storage_uicc">UICC складиште</string>
+  <string name="reboot_recovery">Опоравак</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Преузимање</string>
+  <string name="reboot_soft">Рестартуј интерфејс</string>
+  <string name="permlab_setKeyguardWallpaper">постави позадину закључаног екрана</string>
+  <string name="permdesc_setKeyguardWallpaper">Омогућава апликацији да промени позадину на закључаном екрану.</string>
+  <string name="privacy_guard_dialog_title">Заштита приватности</string>
+  <string name="permlab_preventpower">прескочи дугме напајања</string>
+  <string name="permdesc_preventpower">Дозвољава апликацији да заобиђе дугме за напајање.</string>
+  <string name="usb_extmedia_format_message">Сви подаци са твог USB складишта (испод путање \'%1$s\') ће бити избрисани. Ова акција се не може преокренути!</string>
+  <string name="permlab_accessTorchService">приступ лампа сервиса</string>
+  <string name="permdesc_accessTorchService">Омогућава апликацији да приступи услузи лампе. Никада не би требало за нормалне апликације.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Блиц је укључен</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Додирни да угасиш</string>
+  <string name="storage_sd_dock_card">База SD картице</string>
+  <string name="permlab_accessThemeService">приступај услузи тема</string>
+  <string name="permdesc_accessThemeService">Омогућава апликацији да приступи услузи тема. Никада не би требало за нормалне апликације.</string>
+  <string name="permlab_readThemes">читај информације о мојој теми</string>
+  <string name="permdesc_readThemesDesc">Омогућава апликацији да чита твоје теме и одлучује која тема ће бити примењена.</string>
+  <string name="permlab_writeThemes">модификуј моје теме</string>
+  <string name="permdesc_writeThemesDesc">Омогућава апликацији да убацује нове теме и модификује коју тему ћеш применити.</string>
+  <string name="permlab_readPhoneBlacklist">читај црну листу телефона</string>
+  <string name="theme_install_error_title">Инсталирање теме није успело</string>
+  <string name="theme_install_error_message">%s инсталирање није успело</string>
+  <string name="theme_reset_notification_title">Ресетуј тему</string>
+  <string name="theme_reset_notification_body">Системска тема је обновљена због вишеструких падова апликација.</string>
+  <string name="stylus_app_not_installed">%s није инсталирано</string>
+  <string name="lock_to_app_toast_no_navbar">Да искључиш овај екран додирни и држи дугме за назад.</string>
+  <string name="live_display_auto">Аутоматски</string>
+  <string name="live_display_auto_summary">Аутоматски прилагоди температуру боје екрана после сумрака и свитања</string>
+  <string name="live_display_off">Искључено</string>
+  <string name="live_display_off_summary">Онемогућити сва подешавања</string>
+  <string name="live_display_day">Дан</string>
+  <string name="live_display_day_summary">Користи само дневна подешавања</string>
+  <string name="live_display_night">Ноћ</string>
+  <string name="live_display_night_summary">Користи само ноћна подешавања</string>
+  <string name="live_display_outdoor">Напољу (јако сунце)</string>
+  <string name="live_display_outdoor_summary">Користи само подешавања за напоље</string>
+  <string name="live_display_hint">LiveDisplay може смањити напрезање очију и помоћи да спавате ноћу. Додирните да пробате!</string>
   <string name="fingerprint_default_name">Отисак <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">приступ сервису отиска прста</string>
   <string name="permdesc_accessFingerprintService">Дозволи апликацији да приступи сервису отиска прста. Апликација може додати, обрисати, преименовати и потврђивати помоћу отиска прста</string>
+  <string name="permlab_resetBatteryStats">ресетуј статистику батерије</string>
 </resources>

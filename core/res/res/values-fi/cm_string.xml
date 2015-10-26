@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Kuvakaappaus</string>
+  <string name="permlab_receiveProtectedSms">vastaanota suojattuja tekstiviestejä</string>
+  <string name="global_action_reboot">Käynnistä uudelleen</string>
+  <string name="global_action_current_user">Nykyinen</string>
+  <string name="reboot_progress">Käynnistetään uudelleen\u2026</string>
+  <string name="app_killed_message">Sovellus tapettu</string>
+  <string name="reboot_title">Käynnistä uudelleen</string>
+  <string name="reboot_confirm" product="tablet">Tabletti käynnistyy uudelleen.</string>
+  <string name="reboot_confirm" product="default">Puhelin käynnistyy uudelleen.</string>
+  <string name="progress_nomediapresent" product="default">Poistettavaa mediaa ei löydy\u2026</string>
+  <string name="storage_uicc">UICC-muisti</string>
+  <string name="reboot_recovery">Recovery-tila</string>
+  <string name="reboot_bootloader">Bootloader-tila</string>
+  <string name="reboot_download">Download-tila</string>
+  <string name="reboot_soft">Käynnistä uudelleen (soft)</string>
+  <string name="permlab_setKeyguardWallpaper">aseta näppäinlukon taustakuva</string>
+  <string name="permdesc_setKeyguardWallpaper">Sallii sovelluksen vaihtaa lukitusnäytön taustakuva.</string>
+  <string name="privacy_guard_dialog_title">Yksityisyyden suojaus</string>
+  <string name="permlab_preventpower">ohita virtanappäin</string>
+  <string name="permdesc_preventpower">Sallii sovelluksen ohittaa virtanäppäimen käytön.</string>
+  <string name="usb_extmedia_format_message">Kaikki tiedot USB-muistiltasi (polussa \'%1$s\') poistetaan. Tätä toimintoa ei voi peruuttaa!</string>
+  <string name="permlab_accessTorchService">pääsyn lampun palveluun</string>
+  <string name="permdesc_accessTorchService">Sallii sovelluksen pääsyn lampun palveluun. Tavalliset sovellukset eivät koskaan tarvitse tätä.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Taskulamppu on päällä</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Paina sammuttaaksesi</string>
+  <string name="storage_sd_dock_card">Telakoi SD-kortti</string>
+  <string name="permlab_accessThemeService">pääsy teemapalveluun</string>
+  <string name="permdesc_accessThemeService">Sallii sovelluksen päästä teemapalveluun. Tavalliset sovellukset ei koskaan tarvitse tätä.</string>
+  <string name="permlab_readThemes">lue teeman tiedot</string>
+  <string name="permdesc_readThemesDesc">Sallii sovelluksen lukea teemojasi, ja tunnistaa käytössä olevan teeman.</string>
+  <string name="permlab_writeThemes">muokkaa teemoja</string>
+  <string name="permdesc_writeThemesDesc">Sallii sovelluksen asettaa uusia teemoja ja muokata käytössä olevaa teemaa.</string>
+  <string name="permlab_readPhoneBlacklist">lue puhelimen mustaa listaa</string>
+  <string name="theme_install_error_title">Teeman asennus epäonnistui</string>
+  <string name="theme_install_error_message">Teeman \"%s\" asennus epäonnistui</string>
+  <string name="theme_reset_notification_title">Teeman resetointi</string>
+  <string name="theme_reset_notification_body">Järjestelmän teema palautettu lukuisten sovellusvirheiden vuoksi.</string>
+  <string name="stylus_app_not_installed">%s ei ole asennettu</string>
+  <string name="lock_to_app_toast_no_navbar">Irrottaaksesi tämän näytön, paina ja pidä Takasin-näppäintä pohjassa.</string>
+  <string name="live_display_auto">Automaattinen</string>
+  <string name="live_display_auto_summary">Säädä näytön värilämpötilaa automaattisesti auringonlaskun ja -nousun jälkeen</string>
+  <string name="live_display_off">Pois käytöstä</string>
+  <string name="live_display_off_summary">Poista kaikki mukautukset</string>
+  <string name="live_display_day">Päivä</string>
+  <string name="live_display_day_summary">Käytä vain päiväasetusta</string>
+  <string name="live_display_night">Yö</string>
+  <string name="live_display_night_summary">Käytä vain yöasetusta</string>
+  <string name="live_display_outdoor">Ulkoilma (kirkas aurinko)</string>
+  <string name="live_display_outdoor_summary">Käytä vain ulkoilma-asetusta</string>
+  <string name="live_display_hint">LiveDisplay voi vähentää silmien rasitusta ja auttaa nukkumaan öisin. Kokeile sitä painamalla tästä!</string>
   <string name="fingerprint_default_name">Sormenjälki <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">käytä sormenjälkipalvelua</string>
   <string name="permdesc_accessFingerprintService">Sallii sovelluksen käyttää sormenjälkipalvelua. Sovellus voi lisätä, poistaa, uudelleennimetä ja todentaa sormenjälkiä</string>
+  <string name="permlab_resetBatteryStats">nollaa akun tilastot</string>
 </resources>

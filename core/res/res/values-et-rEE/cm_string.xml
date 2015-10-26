@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Ekraanipilt</string>
+  <string name="permlab_receiveProtectedSms">saa kaitstud SMSe</string>
+  <string name="global_action_reboot">Taaskäivitamine</string>
+  <string name="global_action_current_user">Praegune</string>
+  <string name="reboot_progress">Taaskäivitamine\u2026</string>
+  <string name="app_killed_message">Rakendus suletud</string>
+  <string name="reboot_title">Taaskäivita</string>
+  <string name="reboot_confirm" product="tablet">Teie tahvelarvuti taaskäivitub.</string>
+  <string name="reboot_confirm" product="default">Teie telefon taaskäivitub.</string>
+  <string name="progress_nomediapresent" product="default">Eemaldatavat mäluseadet ei leitud\u2026</string>
+  <string name="storage_uicc">UICC mälu</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download režiim</string>
+  <string name="reboot_soft">Poolik taaskäivitus</string>
+  <string name="permlab_setKeyguardWallpaper">muuta lukuekraani pilti</string>
+  <string name="permdesc_setKeyguardWallpaper">Lubab rakendusel muuta lukustusekraani taustapilti.</string>
+  <string name="privacy_guard_dialog_title">Privaatsuskaitse</string>
+  <string name="permlab_preventpower">kasutada toitenuppu</string>
+  <string name="permdesc_preventpower">Lubab rakendusel kasutada toitenuppu.</string>
+  <string name="usb_extmedia_format_message">Kõik andmed sinu USB mälul (\'%1$s\' all) kustutatakse. Seda toimingut ei saa tagasi võtta!</string>
+  <string name="permlab_accessTorchService">pääseda ligi taskulambi teenusele</string>
+  <string name="permdesc_accessTorchService">Annab rakendusele ligipääsu taskulambi teenusele. Tavarakenduste puhul ei peaks kunagi vaja minema.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Taskulamp põleb</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Väljalülitamiseks koputage</string>
+  <string name="storage_sd_dock_card">Doki SD-kaart</string>
+  <string name="permlab_accessThemeService">pääseda ligi teema teenusele</string>
+  <string name="permdesc_accessThemeService">Annab rakendusele ligipääsu teema teenusele. Tavarakenduste puhul ei peaks kunagi vaja minema.</string>
+  <string name="permlab_readThemes">lugeda teavet teema kohta</string>
+  <string name="permdesc_readThemesDesc">Lubab rakendusel lugeda teemasid ja
+kindlaks teha, millise teema sa oled lubanud.</string>
+  <string name="permlab_writeThemes">muuta teie teemasid</string>
+  <string name="permdesc_writeThemesDesc">Lubab rakendusel lisada uusi teemasid ja
+muuta juba olemasolevaid.</string>
+  <string name="theme_install_error_title">Ei saanud paigaldada teemat</string>
+  <string name="theme_install_error_message">%s paigaldamine nurjus</string>
+  <string name="theme_reset_notification_title">Teema lähtestus</string>
+  <string name="theme_reset_notification_body">Süsteemi teema taastati paljude rakenduste kokkujooksmise tõttu.</string>
+  <string name="stylus_app_not_installed">%s ei ole installitud</string>
+  <string name="lock_to_app_toast_no_navbar">Selle ekraani vabastamiseks puudutage ja hoidke all Tagasi nuppu.</string>
+  <string name="live_display_auto">Automaatne</string>
+  <string name="live_display_auto_summary">Automaatselt reguleeri ekraani värvitemperaturri pärast päikeseloojangut ja -tõusu</string>
+  <string name="live_display_off">Väljas</string>
+  <string name="live_display_off_summary">Keela kõik kohandused</string>
+  <string name="live_display_day">Päev</string>
+  <string name="live_display_day_summary">Kasuta ainult päeva seadeid</string>
+  <string name="live_display_night">Öö</string>
+  <string name="live_display_night_summary">Kasuta ainult öö seadeid</string>
+  <string name="live_display_outdoor">Õues (ere päike)</string>
+  <string name="live_display_outdoor_summary">Kasuta ainult õue seadeid</string>
+  <string name="live_display_hint">LiveDisplay võimaldab vähendada silmade pinget ja lasta sul öösel magada. Kliki siin et seda proovida!</string>
   <string name="fingerprint_default_name">Sõrmejälg <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">juurdepääs sõrmejälgede teenusele</string>
   <string name="permdesc_accessFingerprintService">Annab rakendusel ligipääsu sõrmejälgede teenusele. Rakendus saab lisada, kustutada, nimetada ümber ja autentida sõrmejälgi</string>
+  <string name="permlab_resetBatteryStats">nullida aku statistikat</string>
 </resources>

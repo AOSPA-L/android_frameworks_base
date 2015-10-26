@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Zaslonska slika</string>
+  <string name="permlab_receiveProtectedSms">prejemanje zaščitenih SMS-ov</string>
+  <string name="global_action_reboot">Ponovno zaženi</string>
+  <string name="global_action_current_user">Trenutni</string>
+  <string name="reboot_progress">Ponovno zaganjanje \u2026</string>
+  <string name="app_killed_message">Program uničen</string>
+  <string name="reboot_title">Ponovno zaženi</string>
+  <string name="reboot_confirm" product="tablet">Tablica se bo ponovno zagnala.</string>
+  <string name="reboot_confirm" product="default">Telefon se bo ponovno zagnal.</string>
+  <string name="progress_nomediapresent" product="default">Noben odstranljiv nosilec ni prisoten \u2026</string>
+  <string name="storage_uicc">Pomnilniška naprava UICC</string>
+  <string name="reboot_recovery">Obnovitev</string>
+  <string name="reboot_bootloader">Zagonski nalagalnik</string>
+  <string name="reboot_download">Prenos</string>
+  <string name="reboot_soft">Mehki ponovni zagon</string>
+  <string name="permlab_setKeyguardWallpaper">nastavitev slike ozadja keyguard</string>
+  <string name="permdesc_setKeyguardWallpaper">Omogoča programu spreminjanje slike ozadja zaslona za zaklepanje.</string>
+  <string name="privacy_guard_dialog_title">Privacy Guard</string>
+  <string name="permlab_preventpower">preglasitev tipke za vklop/izklop</string>
+  <string name="permdesc_preventpower">Omogoča programu, da preglasi tipko za vklop/izklop.</string>
+  <string name="usb_extmedia_format_message">Vsi podatki v pomnilniški napravi USB (v \'%1$s\') bodo izbrisani. Tega dejanja ni mogoče povrniti!</string>
+  <string name="permlab_accessTorchService">dostop do storitve svetilke</string>
+  <string name="permdesc_accessTorchService">Omogoča programu dostop do storitve svetilke. Navadno ni potrebno za običajne programe.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Svetilka je vklopljena</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Tapnite, če želite izklopiti</string>
+  <string name="storage_sd_dock_card">Kartica SD postaje</string>
+  <string name="permlab_accessThemeService">dostop do storitev tem</string>
+  <string name="permdesc_accessThemeService">Omogoča programu dostop do storitve tem. Navadno ni potrebno za običajne programe.</string>
+  <string name="permlab_readThemes">branje podatkov o vaši temi</string>
+  <string name="permdesc_readThemesDesc">Omogoča programu branje vaših tem in
+       določanje, katero temo uporabljate.</string>
+  <string name="permlab_writeThemes">spreminjanje tem</string>
+  <string name="permdesc_writeThemesDesc">Omogoča programu vstavljanje novih tem in
+       spreminjanje uporabljene teme.</string>
+  <string name="theme_install_error_title">Namestitev teme je spodletela</string>
+  <string name="theme_install_error_message">Namestitev %s je spodletela</string>
+  <string name="theme_reset_notification_title">Ponastavitev theme</string>
+  <string name="theme_reset_notification_body">Sistemska tema obnovljena zaradi večkratnih sesutij programa.</string>
+  <string name="stylus_app_not_installed">%s ni nameščen</string>
+  <string name="lock_to_app_toast_no_navbar">Da odpnete ta zaslon, se dotaknite in pridržite gumb Nazaj.</string>
+  <string name="live_display_auto">Samodejno</string>
+  <string name="live_display_auto_summary">Samodejno nastavi barvno temperaturo zaslona po sončnem zahodu in vzhodu</string>
+  <string name="live_display_off">Izklopljen</string>
+  <string name="live_display_off_summary">Onemogoči vse prilagoditve</string>
+  <string name="live_display_day">Dan</string>
+  <string name="live_display_day_summary">Uporabi samo dnevne nastavitve</string>
+  <string name="live_display_night">Noč</string>
+  <string name="live_display_night_summary">Uporabi samo nočne nastavitve</string>
+  <string name="live_display_outdoor">Na prostem (močna svetloba)</string>
+  <string name="live_display_outdoor_summary">Uporabi samo nastavitve na prostem</string>
+  <string name="live_display_hint">LiveDisplay vam lahko pomaga pri zmanjšanju obremenitve oči in spanju ponoči. Kliknite tukaj, da ga preskusite!</string>
   <string name="fingerprint_default_name">Prstni odtis <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">dostop do storitve prstnih odtisov</string>
   <string name="permdesc_accessFingerprintService">Omogoča programu dostop do storitve prstnih odtisov. Program lahko doda, izbriše preimenuje ali overi s prstnimi odtisi</string>
+  <string name="permlab_resetBatteryStats">ponastavitev statistike baterije</string>
 </resources>

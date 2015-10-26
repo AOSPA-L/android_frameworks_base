@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Ekrano kopija</string>
+  <string name="permlab_receiveProtectedSms">gauti apsaugotus SMS</string>
+  <string name="global_action_reboot">Paleisti iš naujo</string>
+  <string name="global_action_current_user">Dabartinis</string>
+  <string name="reboot_progress">Paleidžiama iš naujo\u2026</string>
+  <string name="app_killed_message">Programa priverstinai uždaryta</string>
+  <string name="reboot_title">Paleisti iš naujo</string>
+  <string name="reboot_confirm" product="tablet">Jūsų planšetinis kompiuteris bus paleistas iš naujo.</string>
+  <string name="reboot_confirm" product="default">Jūsų telefonas bus paleistas iš naujo.</string>
+  <string name="progress_nomediapresent" product="default">Nėra pašalinamos medijos\u2026</string>
+  <string name="storage_uicc">UICC saugykla</string>
+  <string name="reboot_recovery">Atkūrimo režimas</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Atsisiuntimo režimas</string>
+  <string name="reboot_soft">Paleisti iš naujo OS</string>
+  <string name="permlab_setKeyguardWallpaper">nustatyti klaviatūros apsaugos foną</string>
+  <string name="permdesc_setKeyguardWallpaper">Leidžia programai pakeisti ekrano užrakto foną.</string>
+  <string name="privacy_guard_dialog_title">Privatumo sauga</string>
+  <string name="permlab_preventpower">nepaisyti įjungimo klavišo</string>
+  <string name="permdesc_preventpower">Leidžia programai nepaisyti įjungimo klavišo.</string>
+  <string name="usb_extmedia_format_message">Visi („%1$s“) USB saugyklos duomenys bus ištrinti. Šis veiksmas negali būti atšauktas!</string>
+  <string name="permlab_accessTorchService">pasiekti žibintuvėlio paslaugą</string>
+  <string name="permdesc_accessTorchService">Leidžia programai pasiekti žibintuvėlio paslaugą. Niekada neturėtų reikėti įprastoms programoms.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Žibintuvėlis įjungtas</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Bakstelėkite, kad išjungtumėte</string>
+  <string name="storage_sd_dock_card">SD kortelės dokas</string>
+  <string name="permlab_accessThemeService">pasiekti temos paslaugą</string>
+  <string name="permdesc_accessThemeService">Leidžia programai pasiekti temos paslaugą. Niekada neturėtų reikėti įprastoms programoms.</string>
+  <string name="permlab_readThemes">skaityti jūsų temos informaciją</string>
+  <string name="permdesc_readThemesDesc">Leidžia programai skaityti jūsų temas ir nustatyti kurią temą pritaikėte.</string>
+  <string name="permlab_writeThemes">pakeisti jūsų temas</string>
+  <string name="permdesc_writeThemesDesc">Leidžia programai įdiegti naujas temas ir keisti temą, kurią pritaikėte.</string>
+  <string name="permlab_readPhoneBlacklist">skaityti telefono juodąjį sąrašą</string>
+  <string name="theme_install_error_title">Nepavyko įdiegti temos</string>
+  <string name="theme_install_error_message">%s nepavyko įdiegti</string>
+  <string name="theme_reset_notification_title">Nustatyti iš naujo temą</string>
+  <string name="theme_reset_notification_body">Sistemos tema atkurta dėl pasikartojančių programos klaidų.</string>
+  <string name="stylus_app_not_installed">%s neįdiegta</string>
+  <string name="lock_to_app_toast_no_navbar">Kad atsegtumėte šį ekraną palieskite ir laikykite mygtuką atgal.</string>
+  <string name="live_display_auto">Automatinis</string>
+  <string name="live_display_auto_summary">Automatiškai sureguliuoti ekrano spalvos temperatūrą po saulėlydžio ir saulėtekio</string>
+  <string name="live_display_off">Išjungta</string>
+  <string name="live_display_off_summary">Neleisti visų reguliavimų</string>
+  <string name="live_display_day">Diena</string>
+  <string name="live_display_day_summary">Naudoti tik dienos nustatymus</string>
+  <string name="live_display_night">Naktis</string>
+  <string name="live_display_night_summary">Naudoti tik nakties nustatymus</string>
+  <string name="live_display_outdoor">Laukas (ryški saulė)</string>
+  <string name="live_display_outdoor_summary">Naudoti tik lauko nustatymus</string>
+  <string name="live_display_hint">„LiveDisplay“ gali padėti sumažinti akių įtampą ir padėti jums užmigti naktį. Spauskite čia, kad jį išbandyti!</string>
   <string name="fingerprint_default_name">Pirštų atspaudas <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">pasiekti pirštų atspaudų paslaugą</string>
   <string name="permdesc_accessFingerprintService">Leidžia programai pasiekti pirštų atspaudų paslaugą. Programa gali pridėti, ištrinti, pervardyti ir autentikuoti prieš pirštų atspaudus</string>
+  <string name="permlab_resetBatteryStats">Nustatyti iš naujo akumuliatoriaus statistiką</string>
 </resources>

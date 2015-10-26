@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">திரைப்பிடிப்பு</string>
+  <string name="permdesc_changePrivacyGuardState">பயன்பாட்டை மற்றொரு பயன்பாடு தனியுரிமை பாதுகாப்பு கொண்டு இயங்குமா என்பதை மாற்ற அனுமதிக்கிறது. ஒரு பயன்பாடு தனியுரிமை பாதுகாப்பு கொண்டு இயங்கும் போது, இது போன்ற தொடர்புகள், அழைப்பு பதிவுகள், மற்றும் செய்திகள் போன்ற தனிப்பட்ட தரவுக்கான அணுகல் இருக்காது.</string>
+  <string name="global_action_reboot">மறுதொடக்கம்</string>
+  <string name="reboot_reboot">மறுதொடக்கம்</string>
+  <string name="reboot_progress">மீண்டும் துவக்க\u2026</string>
+  <string name="app_ops_access_camera">கேமரா அணுக</string>
+  <string name="reboot_confirm" product="tablet">உங்கள் கைக்கணினி மீண்டும் துவக்கபடும்.</string>
+  <string name="reboot_confirm" product="default">உங்கள் தொலைபேசி மீண்டும் துவக்கபடும்.</string>
+  <string name="reboot_recovery">மீட்பு (ரெகவரி)</string>
+  <string name="reboot_bootloader">துவக்க ஏற்றி</string>
+  <string name="reboot_download">பதிவிறக்கம்</string>
 </resources>

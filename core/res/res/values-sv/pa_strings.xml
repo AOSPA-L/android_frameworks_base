@@ -19,59 +19,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="global_action_screenshot">Screenshot</string>
-  <string name="global_action_reboot">Reboot</string>
-  <string name="reboot_progress">Rebooting\u2026</string>
-  <string name="reboot_title">Reboot</string>
-  <string name="reboot_confirm" product="tablet">Your tablet will reboot.</string>
-  <string name="reboot_confirm" product="default">Your phone will reboot.</string>
-  <string name="reboot">Reboot</string>
-  <string name="reboot_recovery">Recovery</string>
-  <string name="reboot_bootloader">Bootloader</string>
-  <string name="reboot_download">Download</string>
-  <string name="permlab_setKeyguardWallpaper">set keyguard wallpaper</string>
-  <string name="permdesc_setKeyguardWallpaper">Allows an app to change the lock screen wallpaper.</string>
-  <string name="setting_confirmation_always">Always</string>
-  <string name="setting_confirmation_just_once">Just once</string>
-  <string name="setting_confirmation_never">Never</string>
-  <string name="immersive_mode_confirmation_title">Immersive Mode Confirmation</string>
-  <string name="immersive_mode_confirmation_message">Would you like to enable the immersive mode confirmation dialog?</string>
-  <string name="safe_headset_warning_title">Safe Headset Volume</string>
-  <string name="safe_headset_warning_message">Would you like to disable the recommended volume level warning ?</string>
   <string name="android_installing_apk">Installing app
         <xliff:g id="number" example="123">%1$d</xliff:g> of
         <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
-  <string name="android_installing_title">Android is installing\u2026</string>
-  <string name="permlab_preventpower">override power key</string>
-  <string name="permdesc_preventpower">Allows an app to override the power key.</string>
-  <string name="permlab_accessTorchService">access torch service</string>
-  <string name="permdesc_accessTorchService">Allows an app to access the torch service. Should never be needed for normal apps.</string>
-  <string name="quick_settings_tile_flashlight_not_title">Flashlight is on</string>
-  <string name="quick_settings_tile_flashlight_not_summary">Tap to turn off</string>
-  <string name="permlab_accessThemeService">access theme service</string>
-  <string name="permdesc_accessThemeService">Allows an app to access the theme service. Should never be needed for normal apps.</string>
-  <string name="permlab_readThemes">read your theme info</string>
-  <string name="permdesc_readThemesDesc">Allows the app to read your themes and
-       determine which theme you have applied.</string>
-  <string name="permlab_writeThemes">modify your themes</string>
-  <string name="permdesc_writeThemesDesc">Allows the app to insert new themes and
-       modify which theme you have applied.</string>
-  <string name="theme_install_error_title">Failed to install theme</string>
-  <string name="theme_install_error_message">%s failed to install</string>
-  <string name="theme_reset_notification_title">Theme reset</string>
-  <string name="theme_reset_notification_body">System theme restored due to multiple app crashes.</string>
-  <string name="lock_to_app_toast_no_navbar">To unpin this screen, touch and hold the Back button.</string>
-  <string name="permlab_useHardwareFramework">use hardware framework</string>
-  <string name="permdesc_useHardwareFramework">Allows an app access to the CM hardware framework.</string>
-  <string name="live_display_auto">Automatic</string>
-  <string name="live_display_auto_summary">Automatically adjust color temperature of screen after sunset and sunrise</string>
-  <string name="live_display_off">Off</string>
-  <string name="live_display_off_summary">Disable all adjustments</string>
-  <string name="live_display_day">Day</string>
-  <string name="live_display_day_summary">Use day settings only</string>
-  <string name="live_display_night">Night</string>
-  <string name="live_display_night_summary">Use night settings only</string>
-  <string name="live_display_outdoor">Outdoor (bright sun)</string>
-  <string name="live_display_outdoor_summary">Use outdoor settings only</string>
-  <string name="live_display_hint">LiveDisplay can help reduce eyestrain and help you sleep at night. Click here to try it out!</string>
 </resources>

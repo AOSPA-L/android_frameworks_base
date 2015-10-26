@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Captura de pantalla</string>
+  <string name="permlab_receiveProtectedSms">rebre SMS protegits</string>
+  <string name="global_action_reboot">Reinicia</string>
+  <string name="global_action_current_user">Actual</string>
+  <string name="reboot_progress">S\'està reiniciant\u2026</string>
+  <string name="app_killed_message">Aplicació matada</string>
+  <string name="reboot_title">Reinicia</string>
+  <string name="reboot_confirm" product="tablet">La teva tauleta es reiniciarà.</string>
+  <string name="reboot_confirm" product="default">El teu telèfon es reiniciarà.</string>
+  <string name="progress_nomediapresent" product="default">No hi ha cap mitjà extraïble present\u2026</string>
+  <string name="storage_uicc">Emmagatzematge UICC</string>
+  <string name="reboot_recovery">Recuperació</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Descàrrega</string>
+  <string name="reboot_soft">Reinici ràpid</string>
+  <string name="permlab_setKeyguardWallpaper">estableix el fons de la pantalla de bloqueig</string>
+  <string name="permdesc_setKeyguardWallpaper">Permet que una aplicació estableixi el fons de la pantalla de bloqueig.</string>
+  <string name="privacy_guard_dialog_title">Guarda de privacitat</string>
+  <string name="permlab_preventpower">anul·la la tecla d\'encesa</string>
+  <string name="permdesc_preventpower">Permet que una aplicació anul·li la tecla d\'encesa.</string>
+  <string name="usb_extmedia_format_message">S\'esborraran totes les dades del teu emmagatzematge USB (sota la ruta \'%1$s\'). Aquesta acció no es pot desfer!</string>
+  <string name="permlab_accessTorchService">accés al servei de la torxa</string>
+  <string name="permdesc_accessTorchService">Permet a una aplicació accedir al servei de la torxa. Normalment no hauria de ser necessari en les aplicacions normals.</string>
+  <string name="quick_settings_tile_flashlight_not_title">La llanterna està encesa</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Pica per apagar-la</string>
+  <string name="storage_sd_dock_card">Acopla la targeta SD</string>
+  <string name="permlab_accessThemeService">accés al servei de temes</string>
+  <string name="permdesc_accessThemeService">Permet a una aplicació accedir al servei de temes. No s\'hauria de necessitar mai en les aplicacions normals.</string>
+  <string name="permlab_readThemes">Llegeix la informació del teu tema</string>
+  <string name="permdesc_readThemesDesc">Permet a l\'aplicació llegir els teus temes i determinar quin tema has aplicat.</string>
+  <string name="permlab_writeThemes">modifica els teus temes</string>
+  <string name="permdesc_writeThemesDesc">Permet a l\'aplicació introduir temes nous i modificar quin tema has aplicat.</string>
+  <string name="permlab_readPhoneBlacklist">llegeix la llista negra del telèfon</string>
+  <string name="theme_install_error_title">No ha pogut instal·lar el tema</string>
+  <string name="theme_install_error_message">%s no s\'ha pogut instal·lar</string>
+  <string name="theme_reset_notification_title">Reinici de tema</string>
+  <string name="theme_reset_notification_body">El tema del sistema s\'ha restaurat degut a múltiples fallades d\'app.</string>
+  <string name="stylus_app_not_installed">%s no està instal·lat</string>
+  <string name="lock_to_app_toast_no_navbar">Per desancorar aquesta pantalla, toca i aguanta el botó Enrera.</string>
+  <string name="live_display_auto">Automàtic</string>
+  <string name="live_display_auto_summary">Ajusta automàticament la temperatura de color de la pantalla després de la posta de sol i de l\'alba</string>
+  <string name="live_display_off">No</string>
+  <string name="live_display_off_summary">Deshabilita tots els ajustaments</string>
+  <string name="live_display_day">Dia</string>
+  <string name="live_display_day_summary">Utilitza només la configuració de dia</string>
+  <string name="live_display_night">Nit</string>
+  <string name="live_display_night_summary">Utilitza només la configuració de nit</string>
+  <string name="live_display_outdoor">Exterior (sol intens)</string>
+  <string name="live_display_outdoor_summary">Utilitza només la configuració d\'exterior</string>
+  <string name="live_display_hint">LiveDisplay pot ajudar-te a reduir la fatiga ocular i ajudar-te a dormir a la nit. Fes clic aquí per provar-ho!</string>
   <string name="fingerprint_default_name">Empremta digital <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">accés al servei d\'empremtes digitals</string>
   <string name="permdesc_accessFingerprintService">Permet a una aplicació accedir al servei d\'empremtes digitals. L\'aplicació pot afegir, esborrar, canviar el nom i autenticar-se amb empremtes digitals</string>
+  <string name="permlab_resetBatteryStats">reinicia estadítiques de la bateria</string>
 </resources>

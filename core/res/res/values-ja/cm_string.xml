@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">スクリーンショット</string>
+  <string name="permlab_receiveProtectedSms">保護されたSMSの受信</string>
+  <string name="global_action_reboot">再起動</string>
+  <string name="global_action_current_user">現在</string>
+  <string name="reboot_progress">再起動中\u2026</string>
+  <string name="app_killed_message">アプリを終了しました。</string>
+  <string name="reboot_title">再起動</string>
+  <string name="reboot_confirm" product="tablet">タブレットは再起動します。</string>
+  <string name="reboot_confirm" product="default">携帯電話は再起動します。</string>
+  <string name="progress_nomediapresent" product="default">取り外し可能なメディアが挿入されていません\u2026</string>
+  <string name="storage_uicc">UICCストレージ</string>
+  <string name="reboot_recovery">リカバリー</string>
+  <string name="reboot_bootloader">ブートローダ</string>
+  <string name="reboot_download">ダウンロード</string>
+  <string name="reboot_soft">ソフトリブート</string>
+  <string name="permlab_setKeyguardWallpaper">キーガードの壁紙の設定</string>
+  <string name="permdesc_setKeyguardWallpaper">ロック画面の壁紙の変更をアプリに許可します。</string>
+  <string name="privacy_guard_dialog_title">プライバシーガード</string>
+  <string name="permlab_preventpower">電源キーの再定義</string>
+  <string name="permdesc_preventpower">電源キーの再定義をアプリに許可します。</string>
+  <string name="usb_extmedia_format_message">USBストレージ上のすべてのデータ（ 「%1$s」パス配下）が消去されます。この操作は元に戻せません。</string>
+  <string name="permlab_accessTorchService">トーチサービスへのアクセス</string>
+  <string name="permdesc_accessTorchService">トーチサービスへのアクセスをアプリに許可します。通常のアプリで必要とされることはないはずです。</string>
+  <string name="quick_settings_tile_flashlight_not_title">フラッシュライトはONになっています</string>
+  <string name="quick_settings_tile_flashlight_not_summary">タップしてOFFにする</string>
+  <string name="storage_sd_dock_card">ホルダーのSDカード</string>
+  <string name="permlab_accessThemeService">テーマサービスへのアクセス</string>
+  <string name="permdesc_accessThemeService">テーマサービスへのアクセスをアプリに許可します。通常のアプリで必要とされることはないはずです。</string>
+  <string name="permlab_readThemes">テーマ情報の読み取り</string>
+  <string name="permdesc_readThemesDesc">テーマの読み取りや適用しているテーマの特定をアプリに許可します。</string>
+  <string name="permlab_writeThemes">テーマの変更</string>
+  <string name="permdesc_writeThemesDesc">新しいテーマの挿入や適用しているテーマの変更をアプリに許可します。</string>
+  <string name="permlab_readPhoneBlacklist">携帯電話のブラックリストの読み取り</string>
+  <string name="theme_install_error_title">テーマをインストールできませんでした</string>
+  <string name="theme_install_error_message">%sをインストールできませんでした</string>
+  <string name="theme_reset_notification_title">テーマのリセット</string>
+  <string name="theme_reset_notification_body">複数のアプリのクラッシュによりシステムのテーマが復元されました。</string>
+  <string name="stylus_app_not_installed">%sはインストールされていません</string>
+  <string name="lock_to_app_toast_no_navbar">この画面の固定を解除するには、戻るボタンを長押しします。</string>
+  <string name="live_display_auto">自動</string>
+  <string name="live_display_auto_summary">太陽の動きに合わせて画面の色温度を自動的に調整する</string>
+  <string name="live_display_off">OFF</string>
+  <string name="live_display_off_summary">すべての調整を無効にする</string>
+  <string name="live_display_day">昼</string>
+  <string name="live_display_day_summary">昼の設定のみを使用する</string>
+  <string name="live_display_night">夜</string>
+  <string name="live_display_night_summary">夜の設定のみを使用する</string>
+  <string name="live_display_outdoor">屋外（日光）</string>
+  <string name="live_display_outdoor_summary">屋外の設定のみを使用する</string>
+  <string name="live_display_hint">LiveDisplayは目を疲れにくくし、夜の睡眠を邪魔しません。ここをタップして試してみてください。</string>
   <string name="fingerprint_default_name">指紋<xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">指紋サービスへのアクセス</string>
   <string name="permdesc_accessFingerprintService">指紋サービスへのアクセスをアプリに許可します。アプリは指紋を追加、削除および認証することができます。</string>
+  <string name="permlab_resetBatteryStats">電池統計情報のリセット</string>
 </resources>

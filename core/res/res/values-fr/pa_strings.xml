@@ -19,57 +19,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="global_action_screenshot">Capture d\'écran</string>
-  <string name="global_action_reboot">Redémarrer</string>
-  <string name="reboot_progress">Redémarrage\u2026</string>
-  <string name="reboot_title">Redémarrer</string>
-  <string name="reboot_confirm" product="tablet">Votre tablette va redémarrer.</string>
-  <string name="reboot_confirm" product="default">Votre téléphone va redémarrer.</string>
-  <string name="reboot">Redémarrer</string>
-  <string name="reboot_recovery">Recovery</string>
-  <string name="reboot_bootloader">Bootloader</string>
-  <string name="reboot_download">Téléchargement</string>
-  <string name="permlab_setKeyguardWallpaper">Définir le fond d\'écran de verrouillage</string>
-  <string name="permdesc_setKeyguardWallpaper">Permet à une application de modifier le fond d\'écran de déverrouillage.</string>
-  <string name="setting_confirmation_always">Always</string>
-  <string name="setting_confirmation_just_once">Just once</string>
-  <string name="setting_confirmation_never">Never</string>
-  <string name="immersive_mode_confirmation_title">Immersive Mode Confirmation</string>
-  <string name="immersive_mode_confirmation_message">Would you like to enable the immersive mode confirmation dialog?</string>
-  <string name="safe_headset_warning_title">Safe Headset Volume</string>
-  <string name="safe_headset_warning_message">Would you like to disable the recommended volume level warning ?</string>
   <string name="android_installing_apk">Installation de l\'application 
 <xliff:g id="number" example="123">%1$d</xliff:g> sur 
 <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
-  <string name="android_installing_title">Installation d\'Android\u2026</string>
-  <string name="permlab_preventpower">remplacer le bouton l\'alimentation</string>
-  <string name="permdesc_preventpower">Autoriser une application à outrepasser le bouton d\'alimentation.</string>
-  <string name="permlab_accessTorchService">accéder au service de la torche</string>
-  <string name="permdesc_accessTorchService">Permet à l\'application d\'accéder au service de la torche. Une application normale ne devrait pas en avoir besoin.</string>
-  <string name="quick_settings_tile_flashlight_not_title">La torche est activée</string>
-  <string name="quick_settings_tile_flashlight_not_summary">Appuyer pour éteindre</string>
-  <string name="permlab_accessThemeService">accéder au service de thème</string>
-  <string name="permdesc_accessThemeService">Permet à l\'application d\'accéder au service de thème. Une application normale ne devrait pas en avoir besoin.</string>
-  <string name="permlab_readThemes">lire les informations du thème</string>
-  <string name="permdesc_readThemesDesc">Permet à une application de lire et déterminer quel thème vous avez appliqué.</string>
-  <string name="permlab_writeThemes">modifier vos thèmes</string>
-  <string name="permdesc_writeThemesDesc">Permet à une application d\'installer de nouveaux thèmes et modifier le thème que vous avez appliqué.</string>
-  <string name="theme_install_error_title">Impossible d\'installer le thème</string>
-  <string name="theme_install_error_message">Impossible d\'installer %s</string>
-  <string name="theme_reset_notification_title">Réinitialisation du thème</string>
-  <string name="theme_reset_notification_body">Thème système restauré en raison de multiples plantages d\'application.</string>
-  <string name="lock_to_app_toast_no_navbar">Pour déverrouiller l\'écran, touchez et maintenez la touche Retour.</string>
-  <string name="permlab_useHardwareFramework">Utiliser le framework matériel</string>
-  <string name="permdesc_useHardwareFramework">Permet à une application d\'accéder au framework matériel de CM.</string>
-  <string name="live_display_auto">Automatique</string>
-  <string name="live_display_auto_summary">Ajuster automatiquement la température de couleur de l\'écran après le coucher et le lever du soleil</string>
-  <string name="live_display_off">Inactif</string>
-  <string name="live_display_off_summary">Désactiver tous les réglages</string>
-  <string name="live_display_day">Jour</string>
-  <string name="live_display_day_summary">Utiliser les paramètres de jour seulement</string>
-  <string name="live_display_night">Nuit</string>
-  <string name="live_display_night_summary">Utiliser les paramètres de nuit seulement</string>
-  <string name="live_display_outdoor">Extérieur (plein soleil)</string>
-  <string name="live_display_outdoor_summary">Utiliser seulement les paramètres du mode extérieur</string>
-  <string name="live_display_hint">LiveDisplay peut aider à réduire la fatigue oculaire et vous aider à dormir la nuit. Cliquez ici pour l\'essayer !</string>
 </resources>

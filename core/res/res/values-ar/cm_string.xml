@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">لقطة للشاشة</string>
+  <string name="permlab_receiveProtectedSms">استلام رسائل نصية قصيرة محمية</string>
+  <string name="global_action_reboot">إعادة التشغيل</string>
+  <string name="global_action_current_user">الحالي</string>
+  <string name="reboot_progress">يُعاد التشغيل\u2026</string>
+  <string name="app_killed_message">أُغلقَ التّطبيق قسرًا</string>
+  <string name="reboot_title">إعادة التشغيل</string>
+  <string name="reboot_confirm" product="tablet">سيُعاد تشغيل جهازك اللوحي.</string>
+  <string name="reboot_confirm" product="default">سُيعاد تشغيل هاتفك.</string>
+  <string name="progress_nomediapresent" product="default">لاتوجد وسائط قابلة للإزالة في الوقت الحالى \u2026</string>
+  <string name="storage_uicc">تخزين UICC</string>
+  <string name="reboot_recovery">وضع الاستعادة</string>
+  <string name="reboot_bootloader">وضع محمل الإقلاع</string>
+  <string name="reboot_download">وضع التنزيل</string>
+  <string name="reboot_soft">إعادة تشغيل سريعة</string>
+  <string name="permlab_setKeyguardWallpaper">تعيين خلفية للإطار</string>
+  <string name="permdesc_setKeyguardWallpaper">يسمح ااتطبيق بتغيير خلفية شاشة القفل.</string>
+  <string name="privacy_guard_dialog_title">حارس الخصوصية</string>
+  <string name="permlab_preventpower">تجاوز مفتاح الطاقة</string>
+  <string name="permdesc_preventpower">السماح للتطبيق بتجاوز زر الطاقة.</string>
+  <string name="usb_extmedia_format_message">سيتم مسح كافة البيانات الموجودة على جهاز تخزين USB (في إطار المسار \'%1$s). لا يمكن التراجع عن هذا الإجراء!</string>
+  <string name="permlab_accessTorchService">الوصول إلى خدمة الشعلة</string>
+  <string name="permdesc_accessTorchService">السماح للتطبيق بالوصول إلى خدمة الشعلة. ينبغي أن لا يكون متاحا للتطبيقات العادية.</string>
+  <string name="quick_settings_tile_flashlight_not_title">المصباح يعمل</string>
+  <string name="quick_settings_tile_flashlight_not_summary">انقر لإيقاف التشغيل</string>
+  <string name="storage_sd_dock_card">بطاقة ذاكرة في منصّة الإرساء</string>
+  <string name="permlab_accessThemeService">الوصول إلى خدمة الموضوع</string>
+  <string name="permdesc_accessThemeService">يسمح تطبيق للوصول إلى خدمة الموضوع. ينبغي أن لا تكون لهاحاجة ابدأ لتطبيقات اىعادية.</string>
+  <string name="permlab_readThemes">قراءة معلومات حول الموضوع الخاص بك</string>
+  <string name="permdesc_readThemesDesc">يسمح للتطبيق بقراءة المواضيع الخاصة بك وتحديد الموضوع الذي قمت بتطبيقه.</string>
+  <string name="permlab_writeThemes">تعديل المواضيع</string>
+  <string name="permdesc_writeThemesDesc">يسمح التطبيق بإدراج مواضيع جديدة وتعديل الموضوع التي قمت بتطبيقها.</string>
+  <string name="permlab_readPhoneBlacklist">قراءة الهاتف القائمة السوداء</string>
+  <string name="theme_install_error_title">فشل تثبيت السمة</string>
+  <string name="theme_install_error_message">فشل تثبيت %s</string>
+  <string name="theme_reset_notification_title">إعادة تعيين الموضوع</string>
+  <string name="theme_reset_notification_body">تم استعادة موضوع النظام  بسبب أعطال تطبيقية متعددة.</string>
+  <string name="stylus_app_not_installed">%s لم يتم تثبيته</string>
+  <string name="lock_to_app_toast_no_navbar">لإزالة تثبيت هذه الشاشة , المس واستمر في ضغط زر الرجوع .</string>
+  <string name="live_display_auto">تلقائي</string>
+  <string name="live_display_auto_summary">ضبط درجة حرارة لون للشاشة تلقائياً بعد غروب الشمس وشروق الشمس</string>
+  <string name="live_display_off">مغلق</string>
+  <string name="live_display_off_summary">تعطيل جميع التعديلات</string>
+  <string name="live_display_day">النهار</string>
+  <string name="live_display_day_summary">استخدام إعدادات النهار فقط</string>
+  <string name="live_display_night">الليل</string>
+  <string name="live_display_night_summary">استخدام إعدادات الليل فقط</string>
+  <string name="live_display_outdoor">خارج المنزل ( شمس ساطعة)</string>
+  <string name="live_display_outdoor_summary">استخدم إعدادات خارج المنزل  فقط</string>
+  <string name="live_display_hint">LiveDisplay يمكن أن يساعد في تقليل إجهاد العين ويساعدك على النوم ليلا. انقر هنا لتجربته!</string>
   <string name="fingerprint_default_name">بصمة الإصبع <xliff:g id="number">%d </xliff:g></string>
   <string name="permlab_accessFingerprintService">الوصول إلى خدمة بصمة الإصبع</string>
   <string name="permdesc_accessFingerprintService">يسمح للتطبيق بالوصول إلى خدمة بصمات الأصابع. ويمكن للتطبيق إضافة وحذف وإعادة تسمية ومصادقة بصمات الأصابع</string>
+  <string name="permlab_resetBatteryStats">إعادة تعيين إحصائيات البطارية</string>
 </resources>

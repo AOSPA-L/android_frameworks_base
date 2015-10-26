@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">螢幕擷取</string>
+  <string name="permlab_receiveProtectedSms">接收受保護的簡訊</string>
+  <string name="global_action_reboot">重新啟動</string>
+  <string name="global_action_current_user">現在</string>
+  <string name="reboot_progress">正在重新啟動\u2026</string>
+  <string name="app_killed_message">已終止應用程式</string>
+  <string name="reboot_title">重新啟動</string>
+  <string name="reboot_confirm" product="tablet">您的平板電腦將會重新啟動。</string>
+  <string name="reboot_confirm" product="default">您的手機將會重新啟動。</string>
+  <string name="progress_nomediapresent" product="default">沒有可移除的媒體\u2026</string>
+  <string name="storage_uicc">UICC 儲存</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download</string>
+  <string name="reboot_soft">軟件重新啟動</string>
+  <string name="permlab_setKeyguardWallpaper">設定鎖定畫面桌布</string>
+  <string name="permdesc_setKeyguardWallpaper">允許應用程式變更鎖定畫面桌布。</string>
+  <string name="privacy_guard_dialog_title">隱私守衛</string>
+  <string name="permlab_preventpower">無視電源鍵</string>
+  <string name="permdesc_preventpower">允許應用程式無視電源鍵。</string>
+  <string name="usb_extmedia_format_message">USB 儲存空間上所有資料將會被清除 (路徑 「%1$s」)。這個動作無法還原。</string>
+  <string name="permlab_accessTorchService">存取手電筒服務</string>
+  <string name="permdesc_accessTorchService">允許應用程式存取手電筒服務 (一般應用程式不需使用)。</string>
+  <string name="quick_settings_tile_flashlight_not_title">手電筒開</string>
+  <string name="quick_settings_tile_flashlight_not_summary">點擊關閉</string>
+  <string name="storage_sd_dock_card">座架 SD 卡</string>
+  <string name="permlab_accessThemeService">存取主題服務</string>
+  <string name="permdesc_accessThemeService">允許應用程式存取主題服務 (一般應用程式不需使用)。</string>
+  <string name="permlab_readThemes">閱讀您的主題資訊</string>
+  <string name="permdesc_readThemesDesc">允許應用程式讀取您的主題，並確定您已應用的主題。</string>
+  <string name="permlab_writeThemes">修改您的主題</string>
+  <string name="permdesc_writeThemesDesc">允許應用程式來插入新的主題和修改您已應用的主題。</string>
+  <string name="permlab_readPhoneBlacklist">讀取手機黑名單</string>
+  <string name="theme_install_error_title">主題安裝失敗</string>
+  <string name="theme_install_error_message">「%s」安裝失敗</string>
+  <string name="theme_reset_notification_title">重設主題</string>
+  <string name="theme_reset_notification_body">基於多個應用程式發生錯誤所以已還原至預設主題</string>
+  <string name="stylus_app_not_installed">未安裝 %s</string>
+  <string name="lock_to_app_toast_no_navbar">要解鎖此螢幕，觸摸並按住返回鍵。</string>
+  <string name="live_display_auto">自動</string>
+  <string name="live_display_auto_summary">在白天和夜晚自動調節螢幕顏色溫度</string>
+  <string name="live_display_off">關閉</string>
+  <string name="live_display_off_summary">禁用所有的調整</string>
+  <string name="live_display_day">白天</string>
+  <string name="live_display_day_summary">僅使用白天設定</string>
+  <string name="live_display_night">夜間</string>
+  <string name="live_display_night_summary">僅使用夜間設定</string>
+  <string name="live_display_outdoor">戶外 (陽光)</string>
+  <string name="live_display_outdoor_summary">僅使用戶外設定</string>
+  <string name="live_display_hint">LiveDisplay 可以幫助減少眼睛的疲勞及睡前使用造成的不適。輕觸此處來試試！</string>
   <string name="fingerprint_default_name">指紋 <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">存取指紋辨識服務</string>
   <string name="permdesc_accessFingerprintService">允許應用程式存取指紋辨識服務。該應用程式可以新增、刪除、重新命名及使用指紋驗證。</string>
+  <string name="permlab_resetBatteryStats">重設電池統計資訊</string>
 </resources>

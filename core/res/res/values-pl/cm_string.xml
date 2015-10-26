@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Zrzut ekranu</string>
+  <string name="permlab_receiveProtectedSms">odbieranie chronionych SMS-ów</string>
+  <string name="global_action_reboot">Uruchom ponownie</string>
+  <string name="global_action_current_user">Bieżący</string>
+  <string name="reboot_progress">Ponowne uruchamianie\u2026</string>
+  <string name="app_killed_message">Aplikacja została zamknięta</string>
+  <string name="reboot_title">Uruchom ponownie</string>
+  <string name="reboot_confirm" product="tablet">Tablet zostanie uruchomiony ponownie.</string>
+  <string name="reboot_confirm" product="default">Telefon zostanie uruchomiony ponownie.</string>
+  <string name="progress_nomediapresent" product="default">Brak wymiennego nośnika pamięci\u2026</string>
+  <string name="storage_uicc">Magazyn UICC</string>
+  <string name="reboot_recovery">Uruchom w trybie Recovery</string>
+  <string name="reboot_bootloader">Uruchom w trybie Bootloader</string>
+  <string name="reboot_download">Uruchom w trybie Download</string>
+  <string name="reboot_soft">Miękki restart</string>
+  <string name="permlab_setKeyguardWallpaper">Ustawianie tła ekranu blokady</string>
+  <string name="permdesc_setKeyguardWallpaper">Umożliwia aplikacji zmianę tła ekranu blokady.</string>
+  <string name="privacy_guard_dialog_title">Ochrona prywatności</string>
+  <string name="permlab_preventpower">zastąp klawisz zasilania</string>
+  <string name="permdesc_preventpower">Pozwala aplikacji na zastępowanie przycisku zasilania.</string>
+  <string name="usb_extmedia_format_message">Wszystkie dane z pamięci USB (w ścieżce \'%1$s\') zostaną usunięte. Nie można tego cofnąć!</string>
+  <string name="permlab_accessTorchService">dostęp do latarki</string>
+  <string name="permdesc_accessTorchService">Umożliwia aplikacji dostęp do latarki. Nie powinno być wymagane przez standardowe aplikacje.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Latarka jest włączona</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Dotknij, aby wyłączyć</string>
+  <string name="storage_sd_dock_card">Karta pamięci stacji dokującej</string>
+  <string name="permlab_accessThemeService">dostęp do usługi motywów</string>
+  <string name="permdesc_accessThemeService">Umożliwia aplikacji dostęp do usługi motywów (nie powinno być wymagane przez standardowe aplikacje).</string>
+  <string name="permlab_readThemes">odczytanie informacji o motywie</string>
+  <string name="permdesc_readThemesDesc">Zezwala aplikacji na dostęp do twoich motywów i decydowanie, który z nich ma zostać użyty.</string>
+  <string name="permlab_writeThemes">modyfikowanie Twoich motywów</string>
+  <string name="permdesc_writeThemesDesc">Zezwala aplikacji na dodawanie nowych motywów i modyfikowanie tego, którego używasz.</string>
+  <string name="permlab_readPhoneBlacklist">odczytywanie czarnej listy</string>
+  <string name="theme_install_error_title">Nie udało się zainstalować motywu</string>
+  <string name="theme_install_error_message">%s nie udało się zainstalować</string>
+  <string name="theme_reset_notification_title">Reset motywu</string>
+  <string name="theme_reset_notification_body">Domyślny motyw przywrócony z powodu wielu awarii aplikacji.</string>
+  <string name="stylus_app_not_installed">Nie zainstalowano aplikacji %s</string>
+  <string name="lock_to_app_toast_no_navbar">Aby odpiąć ekran, dotknij i przytrzymaj przycisk Wstecz.</string>
+  <string name="live_display_auto">Automatycznie</string>
+  <string name="live_display_auto_summary">Automatycznie dostosuj temperaturę kolorów ekranu po zachodzie i wschodzie słońca</string>
+  <string name="live_display_off">Wyłączony</string>
+  <string name="live_display_off_summary">Wyłącz wszystkie zmiany</string>
+  <string name="live_display_day">Dzień</string>
+  <string name="live_display_day_summary">Używaj tylko ustawień na dzień</string>
+  <string name="live_display_night">Noc</string>
+  <string name="live_display_night_summary">Używaj ustawień tylko w nocy</string>
+  <string name="live_display_outdoor">Na zewnątrz (jasne światło)</string>
+  <string name="live_display_outdoor_summary">Używaj ustawienia tylko na zewnątrz</string>
+  <string name="live_display_hint">LiveDisplay może pomóc w zredukowaniu efektu zmęczenia oczu oraz pomaga zasnąć w nocy. Kliknij tutaj, aby wypróbować!</string>
   <string name="fingerprint_default_name">Odcisk palca <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">dostęp do usługi odcisku palca</string>
   <string name="permdesc_accessFingerprintService">Umożliwia aplikacji dostęp do usługi odcisku palca. Aplikacja może dodać, usunąć, zmienić nazwę i uwierzytelnić odcisk palca</string>
+  <string name="permlab_resetBatteryStats">resetowanie statystyk baterii</string>
 </resources>

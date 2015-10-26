@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Snimak zaslona</string>
+  <string name="permgrouplab_security">Sigurnost</string>
+  <string name="global_action_reboot">Ponovno pokreni</string>
+  <string name="reboot_reboot">Ponovno pokreni</string>
+  <string name="reboot_progress">Ponovno pokretanje\u2026</string>
+  <string name="adb_net_active_notification_title">Mrežni ADB omogućen</string>
+  <string name="reboot_confirm" product="tablet">Tablet će ponovno biti pokrenut.</string>
+  <string name="reboot_confirm" product="default">Telefon će ponovno biti pokrenut.</string>
+  <string name="reboot_recovery">Način oporavka</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download</string>
+  <string name="permlab_setKeyguardWallpaper">postaviti pozadinu zaslona zaključavanja</string>
+  <string name="permdesc_setKeyguardWallpaper">Dozvoljava aplikaciji promjenu pozadine zaslona zaključavanja.</string>
+  <string name="privacy_guard_dialog_title">Nadzor privatnosti</string>
+  <string name="permlab_accessThemeService">pristupiti servisu tema</string>
+  <string name="permdesc_accessThemeService">Dopušta aplikaciji pristup servisu tema. Za obične aplikacije nikada ne bi trebao biti potreban.</string>
+  <string name="permlab_readThemes">pročitati informacije vaše teme</string>
+  <string name="permdesc_readThemesDesc">Dopušta aplikaciji čitanje vaših tema i određivanje teme koju koristite.</string>
+  <string name="permlab_writeThemes">urediti vaše teme</string>
+  <string name="permdesc_writeThemesDesc">Dopušta aplikaciji dodavati nove teme i urediti temu koju ste primjenili.</string>
+  <string name="permlab_readPhoneBlacklist">čitati listu blokiranih poziva</string>
 </resources>

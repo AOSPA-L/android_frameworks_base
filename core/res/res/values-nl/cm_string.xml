@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="global_action_screenshot">Screenshot</string>
+  <string name="permlab_receiveProtectedSms">beschermd sms-bericht ontvangen</string>
+  <string name="global_action_reboot">Herstarten</string>
+  <string name="global_action_current_user">Huidige</string>
+  <string name="reboot_progress">Herstarten\u2026</string>
+  <string name="app_killed_message">App afgesloten</string>
+  <string name="reboot_title">Herstarten</string>
+  <string name="reboot_confirm" product="tablet">Uw tablet wordt herstart.</string>
+  <string name="reboot_confirm" product="default">Uw telefoon wordt herstart.</string>
+  <string name="progress_nomediapresent" product="default">Geen verwijderbare media aanwezig\u2026</string>
+  <string name="storage_uicc">UICC-opslag</string>
+  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_download">Download</string>
+  <string name="reboot_soft">Soft reboot</string>
+  <string name="permlab_setKeyguardWallpaper">achtergrond van vergrendelingsscherm instellen</string>
+  <string name="permdesc_setKeyguardWallpaper">Hiermee kan de app de achtergrond van het vergrendelingsscherm aanpassen.</string>
+  <string name="privacy_guard_dialog_title">Privacybescherming</string>
+  <string name="permlab_preventpower">aan/uit-knop geforceerd wijzigen</string>
+  <string name="permdesc_preventpower">Hiermee kan de app het gedrag van de aan/uit-knop wijzigen.</string>
+  <string name="usb_extmedia_format_message">Alle gegevens op uw USB-opslag (pad \'%1$s\') worden gewist. Deze actie kan niet ongedaan worden gemaakt!</string>
+  <string name="permlab_accessTorchService">toegang tot zaklampservice</string>
+  <string name="permdesc_accessTorchService">Hiermee kan de app toegang krijgen tot de zaklampservice. Nooit vereist voor normale apps.</string>
+  <string name="quick_settings_tile_flashlight_not_title">Zaklamp staat aan</string>
+  <string name="quick_settings_tile_flashlight_not_summary">Tik om uit te schakelen</string>
+  <string name="storage_sd_dock_card">SD-kaart in dock</string>
+  <string name="permlab_accessThemeService">toegang tot themaservice</string>
+  <string name="permdesc_accessThemeService">Hiermee kan de app toegang krijgen tot de themaservice. Nooit vereist voor normale apps.</string>
+  <string name="permlab_readThemes">informatie over uw thema\'s lezen</string>
+  <string name="permdesc_readThemesDesc">Hiermee kan de app informatie lezen over uw thema\'s en bepalen welk thema u hebt toegepast.</string>
+  <string name="permlab_writeThemes">uw thema\'s aanpassen</string>
+  <string name="permdesc_writeThemesDesc">Hiermee kan de app nieuwe thema\'s invoegen en wijzigen welk thema u hebt toegepast.</string>
+  <string name="permlab_readPhoneBlacklist">zwarte lijst lezen</string>
+  <string name="theme_install_error_title">Thema installeren mislukt</string>
+  <string name="theme_install_error_message">%s kan niet worden geïnstalleerd</string>
+  <string name="theme_reset_notification_title">Thema opnieuw instellen</string>
+  <string name="theme_reset_notification_body">Systeemthema hersteld als gevolg van meerdere gecrashte apps.</string>
+  <string name="stylus_app_not_installed">%s is niet geïnstalleerd</string>
+  <string name="lock_to_app_toast_no_navbar">Blijf de Terug-knop aanraken om dit scherm los te maken.</string>
+  <string name="live_display_auto">Automatisch</string>
+  <string name="live_display_auto_summary">Automatisch kleurtemperatuur van scherm aanpassen na zonsopkomst en -ondergang</string>
+  <string name="live_display_off">Uit</string>
+  <string name="live_display_off_summary">Alle aanpassingen uitschakelen</string>
+  <string name="live_display_day">Overdag</string>
+  <string name="live_display_day_summary">Alleen instellingen voor overdag gebruiken</string>
+  <string name="live_display_night">\'s Nachts</string>
+  <string name="live_display_night_summary">Alleen instellingen voor \'s nachts gebruiken</string>
+  <string name="live_display_outdoor">Buitenshuis (heldere zon)</string>
+  <string name="live_display_outdoor_summary">Alleen instellingen voor buitenshuis gebruiken</string>
+  <string name="live_display_hint">LiveDisplay kan oogvermoeidheid verminderen en helpt u om \'s nachts te slapen. Tik hier om het uit te proberen</string>
   <string name="fingerprint_default_name">Vingerafdruk <xliff:g id="number">%d</xliff:g></string>
   <string name="permlab_accessFingerprintService">toegang tot vingerafdrukservice</string>
   <string name="permdesc_accessFingerprintService">Hiermee kan de app toegang krijgen tot de vingerafdrukservice. De app kan vingerafdrukken toevoegen, verwijderen, hernoemen en gebruiken ter authenticatie.</string>
+  <string name="permlab_resetBatteryStats">accustatistieken opnieuw instellen</string>
 </resources>
