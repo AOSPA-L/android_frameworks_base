@@ -1031,18 +1031,6 @@ public class KeyguardViewMediator extends SystemUI {
         }
     }
 
-    private boolean isKeyguardDisabled() {
-        if (mLockPatternUtils.isThirdPartyKeyguardEnabled()) {
-            // We don't want the stock keyguard to do anything when a third party component is
-            // enabled.  The view mediator will still show take care of showing the third party
-            // component as usual.
-            if (DEBUG) {
-                Log.d(TAG, "iisKeyguardDisabled: keyguard is disabled by third party keyguard");
-            }
-            return true;
-        }
-    }
-
     /**
      * A dream started.  We should lock after the usual screen-off lock timeout but only
      * if there is a secure lock pattern.
